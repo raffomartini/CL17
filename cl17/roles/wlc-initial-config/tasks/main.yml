@@ -1,0 +1,6 @@
+---
+#wlc-initial-config/tasks//Users/rmartini/Desktop/CL17//cl17/roles/wlc-initial-config/tasks/main.yml
+- name: Generate config
+  template: src=initial-setup-template.j2 dest="{{config_path}}/{{item.hostname}}-initial-setup.txt"
+  # loops over the switches defined in the vars folder
+  with_items: "{{ controllers }}"

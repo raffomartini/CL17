@@ -1,0 +1,60 @@
+System Name [Cisco_f0:07:08] (31 characters max): 
+Enter Administrative User Name (24 characters max): 
+Invalid response
+
+Enter Administrative User Name (24 characters max): 
+AUTO-INSTALL: no interfaces registered.
+
+AUTO-INSTALL: process terminated -- no configuration loaded
+-
+
+System Name [Cisco_f0:07:08] (31 characters max): -
+Invalid response
+
+
+System Name [Cisco_f0:07:08] (31 characters max): WLC2 
+Enter Administrative User Name (24 characters max): cisco
+Enter Administrative Password (3 to 24 characters): ********
+Re-enter Administrative Password                 : ********
+
+Service Interface IP Address Configuration [static][DHCP]: 
+
+Enable Link Aggregation (LAG) [yes][NO]: yes
+
+Management Interface IP Address: 10.130.0.2
+Management Interface Netmask: 255.255.0.0
+Management Interface Default Router: 10.130.255.254
+Management Interface VLAN Identifier (0 = untagged): 130
+Management Interface DHCP Server IP Address: 10.100.253.6
+
+Enable HA [yes][NO]: NO
+
+Virtual Gateway IP Address: 1.1.1.1
+
+Multicast IP Address: 232.1.1.11
+
+Mobility/RF Group Name: CL17
+
+Network Name (SSID): provisioning
+
+Configure DHCP Bridging Mode [yes][NO]:   
+
+Allow Static IP Addresses [YES][no]: no
+
+Configure a RADIUS Server now? [YES][no]: no
+Warning! The default WLAN security policy requires a RADIUS server.
+Please see documentation for more details.
+
+Enter Country Code list (enter 'help' for a list of countries) [US]: DE
+
+Enable 802.11b Network [YES][no]: no
+Enable 802.11a Network [YES][no]: no
+Enable Auto-RF [YES][no]: 
+
+Configure a NTP server now? [YES][no]: 
+Enter the NTP server's IP address: 10.128.0.1
+Enter a polling interval between 3600 and 604800 secs: 3600
+
+Would you like to configure IPv6 parameters[YES][no]: no
+
+Configuration correct? If yes, system will save it and reset. [yes][NO]: yes

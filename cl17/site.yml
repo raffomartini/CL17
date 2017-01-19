@@ -1,0 +1,16 @@
+---
+#Template for Playbook "cl17"
+- hosts: local
+  name: cl17
+  vars:
+    config_path: "{{ playbook_dir }}/CFG"
+  roles:
+  - wlc-config-1
+  - wlc-config-redundancy
+
+
+# to run this playbook, issue the command:
+# source ~/virtualenvs/pynet-3.6/bin/activate
+# export ANSIBLE_HOSTS=~/PycharmProjects/pynet/hosts
+# ansible-playbook site.yml
+

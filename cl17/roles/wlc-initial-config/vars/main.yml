@@ -1,0 +1,5 @@
+---
+#wlc-initial-config/vars//Users/rmartini/Desktop/CL17//cl17/roles/wlc-initial-config/vars/main.yml
+controllers:
+  - {hostname: WLC1, mgmt: 10.130.0.1}
+  
