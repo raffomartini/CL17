@@ -58,8 +58,8 @@ for id in range(1,8):
     table = worksheet.get_all_values()
     commands += rename_ap_commands(table)
 
-    with open('command_rename_ap','a+') as f:
-        f.writelines(commands)
+with open('command_rename_ap','a+') as f:
+    f.writelines(commands)
 
 # with open(filename, newline='') as f:
 #     table = csv.reader(f)
