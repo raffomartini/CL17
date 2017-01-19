@@ -1,0 +1,3 @@
+#source ~/.bash_profile
+source ~/virtualenvs/pynet-3.6/bin/activate
+export ANSIBLE_HOSTS=~/PycharmProjects/pynet/hosts
