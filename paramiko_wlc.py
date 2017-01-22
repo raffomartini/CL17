@@ -8,12 +8,12 @@ import re
 TROUBLESHOOT = True
 
 if __name__ == '__main__':
-    # ip = '192.168.4.100'
-    ip = "10.130.0.1"
+    ip = '192.168.4.100'
+    # ip = "10.130.0.1"
     username = 'admin'
     password = 'C1sc0123'
-    username = 'cisco'
-    password = 'C1sco123'
+    # username = 'cisco'
+    # password = 'C1sco123'
 
 
     credentials = {
@@ -76,7 +76,7 @@ class WlcSSH(object):
             # Opens ssh connection
         self.remote_conn.connect(self.ip, **connect_param)
         # invoke a shell session
-        self.channel = self.remote_conn.invoke_shell()
+        self.shell_session = self.remote_conn.invoke_shell()
         time.sleep(1)
         if self.DEBUG:
             print('SSH connection opened successfully')
@@ -104,8 +104,8 @@ class WlcSSH(object):
         :return: output as UTF string
         '''
         output = b''
-        while self.channel.recv_ready():
-            buffer = self.channel.recv(10000)
+        while self.shell_session.recv_ready():
+            buffer = self.shell_session.recv(10000)
             if self.DEBUG:
                 print('RECEIVED: {}'.format(buffer.decode()))
             elif verbose:
@@ -132,7 +132,7 @@ class WlcSSH(object):
             command = '\n'
         # converts to bytes and send
         command_b = command.encode()
-        self.channel.send(command_b)
+        self.shell_session.send(command_b)
         # time.sleep(0.1)
 
     def send_command(self, command, verbose=False, pattern=None, delay=None):
@@ -143,7 +143,7 @@ class WlcSSH(object):
         '''
         command_log = ''
         # If the channel is not ready, read it
-        if not (self.channel.send_ready()):
+        if not (self.shell_session.send_ready()):
             command_log = self.read(verbose)
         self.write(command)
         if delay is not None:
@@ -323,6 +323,13 @@ transfer download start\
                 f.write(output)
         return output
 
+    def close(self):
+        '''
+        Terminate the shell session
+        :return:
+        '''
+        self.remote_conn.close()
+
 
 if __name__ == '__main__':
     WlcSSH.DEBUG = True
@@ -330,8 +337,8 @@ if __name__ == '__main__':
     wlc_session = WlcSSH(**credentials)
 
     # wlc_session.load_image(**ftp_settings)
-    output = wlc_session.show_run_startup('/Users/rmartini/Desktop/wlc01')
-    output = wlc_session.show_run_commands('/Users/rmartini/Desktop/wlc01-c')
+    output = wlc_session.show_run_startup('/Users/rmartini/Desktop/startup_config')
+    # output = wlc_session.show_run_commands('/Users/rmartini/Desktop/wlc01-c')
     # output = wlc_session.send_command('show sysinfo')
     # output = wlc_session.send_command('show sysinfo')
     # output = wlc_session.show_run('show-run.txt')

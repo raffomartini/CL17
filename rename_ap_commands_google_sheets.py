@@ -29,9 +29,11 @@ def rename_ap_commands(table):
                 mac = row[2].lower()
                 # convert mac address
                 newmac = '{}:{}:{}:{}:{}:{}'.format(mac[0:2], mac[2:4], mac[4:6], mac[6:8], mac[8:10], mac[10:12])
+                name = row[8]
                 # config ap name <name> <MAC>
-                commands.append('config ap name {} {}\n'.format(row[8], newmac))
-                commands.append('config ap location {} {}\n'.format(location, newmac))
+                commands.append('config ap name {} {}\n'.format(name, newmac))
+                commands.append('config ap location {} {}\n'.format(location, name))
+                commands.append('config ap led-state flash 300 {}.\n'.format(name))
     except:
         pass
     return commands
@@ -53,12 +55,12 @@ sh = gc.open('CL17 AP LIST - 17th Jan 2017')
 
 # interested in spreadsheets 1 to 7
 commands = []
-for id in range(1,8):
+for id in range(8,9):
     worksheet = sh.get_worksheet(id)
     table = worksheet.get_all_values()
     commands += rename_ap_commands(table)
 
-with open('command_rename_ap','a+') as f:
+with open('command_rename_ap','w+') as f:
     f.writelines(commands)
 
 # with open(filename, newline='') as f:
