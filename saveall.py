@@ -1,6 +1,6 @@
 from wlcsshshell import WlcSshShell
-import time
 import keyring
+import time
 
 WlcSshShell.DEBUG = True
 

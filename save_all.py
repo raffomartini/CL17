@@ -10,10 +10,10 @@ WLC_FILE = 'wlc.yml'
 REMOTE = True
 
 ip = "10.50.140.124"
-wlc_username = 'cisco'
-wlc_password = 'C1sco123'
-# wlc_username = 'rmartini'
-# wlc_password = keyring.get_password('cl17ftp','rmartini')
+# wlc_username = 'cisco'
+# wlc_password = 'C1sco123'
+wlc_username = 'rmartini'
+wlc_password = keyring.get_password('cl17ftp','rmartini')
 remote_ip = "10.50.140.124"
 
 # wlc3 = {
@@ -22,20 +22,6 @@ remote_ip = "10.50.140.124"
 #     'password': wlc_password,
 #     'port': port
 # }
-
-commands = '''\
-config radius auth add 1 10.100.253.7 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config radius acct add 1 10.100.253.7 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs auth add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs acct add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs athr add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config radius auth add 2 10.100.253.107 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config radius acct add 2 10.100.253.107 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs auth add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs acct add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config tacacs athr add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
-config aaa auth mgmt  local tacacs
-'''.splitlines()
 
 output_print_lock = Lock()
 threads = []
@@ -46,7 +32,7 @@ threads = []
 with open(WLC_FILE) as f:
     wlcs = yaml.load(f)
 
-def connect_and_send(wlc, commands):
+def connect_and_save(wlc):
     '''
     :param wlc: dictionary for 1 wlc out of the yml file (see wlc.yml)
     :param commands: list of commands to execute
@@ -64,13 +50,23 @@ def connect_and_send(wlc, commands):
         'password': wlc_password,
         'port': port
     }
+    ftp_settings = {
+        # add timestamp
+        'filename': '{}-{}.txt'.format(name,time.strftime('%Y-%m-%d_%H-%M')),
+        'username': 'rmartini',
+        # getting it from keychain
+        'password': keyring.get_password('cl17ftp', 'rmartini'),
+        # 'serverip' : '192.168.4.100',
+        'serverip': '10.100.253.13',
+        'path': '/usr/home/rmartini/'
+    }
     # improvement: try to use decorators
     output_print_lock.acquire()
     print('-'*66)
     print('Connecting to {}'.format(name))
     output_print_lock.release()
     wlc_session = WlcSshShell(**session_parameters)
-    output = wlc_session.send_commands(commands)
+    output = wlc_session.save_config(**ftp_settings)
     wlc_session.close()
     output_print_lock.acquire()
     print('{} DONE'.format(name))
@@ -78,10 +74,9 @@ def connect_and_send(wlc, commands):
     print('-' * 66)
     output_print_lock.release()
 
-
 if __name__ == '__main__':
     for name,wlc in wlcs.items():
-        worker = Thread(target=connect_and_send, args=(wlc,commands,))
+        worker = Thread(target=connect_and_save, args=(wlc,))
         threads.append(worker)
         worker.setDaemon(True)
         worker.start()
