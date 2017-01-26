@@ -233,6 +233,25 @@ class Ap_Lookup():
         ap_table = self.ap_table()
         self.save_table_to_worksheet(worksheet,ap_table)
 
+    def __repr__(self):
+        return '<ap_lookup, {} aps in memory>'.format(self.quantity)
+
+    def __getitem__(self, item):
+        # ap_lookup['mac'] -> ap_dictionary
+        return self.ap_lookup[item]
+
+    # def __setitem__(self, key, value):
+    #     self.add_ap(ap)
+    def __delitem__(self, key):
+        # del ap_lookup[key] -> delete ap from lookup
+        self.del_ap(key)
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
     aps = Ap_Lookup()
@@ -240,7 +259,7 @@ if __name__ == '__main__':
     aps.open_sheets()
     aps.read_worksheets(range(1,2))
     aps.save()
-    aps.save_to_gsheets()
+    # aps.save_to_gsheets()
 
 
 

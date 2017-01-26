@@ -53,7 +53,7 @@ sh = gc.open('CL17 AP LIST - 17th Jan 2017')
 
 # interested in spreadsheets 1 to 7
 commands = []
-for id in range(1,8):
+for id in range(8,9):
     worksheet = sh.get_worksheet(id)
     table = worksheet.get_all_values()
     commands += rename_ap_commands(table)

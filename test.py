@@ -1,6 +1,6 @@
 '''building the clear_ap command'''
 
-from paramiko_wlc import WlcSSH
+from wlcsshshell import WlcSshShell
 import re
 
 ip = '10.130.0.9'
@@ -94,8 +94,8 @@ def clear_ap(ap_list):
 
 
 if __name__ == '__main__':
-    WlcSSH.DEBUG = True
-    wlc_session = WlcSSH(**wlc)
+    WlcSshShell.DEBUG = True
+    wlc_session = WlcSshShell(**wlc)
     output = wlc_session.send_command('show ap summary')
     ap_list = read_ap(output)
     print(ap_list)

@@ -1,0 +1,11 @@
+config radius auth add 1 10.100.253.7 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config radius acct add 1 10.100.253.7 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs auth add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs acct add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs athr add 1 10.100.253.7 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config radius auth add 2 10.100.253.107 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config radius acct add 2 10.100.253.107 1812 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs auth add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs acct add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+config tacacs athr add 2 10.100.253.107 49 ascii Ksl33mJwfeFOZ4iPOGuYSPIz
+aaa auth mgmt  local tacacs

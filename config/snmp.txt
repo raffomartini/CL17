@@ -1,0 +1,5 @@
+config snmp community create  CMX-123-chrseb
+config snmp community accessmode rw CMX-123-chrseb
+config snmp community delete public
+config snmp community delete private
+

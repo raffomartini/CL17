@@ -1,0 +1,280 @@
+config database size 2048 
+config network rf-network-name CL17 
+config network multicast mode multicast 232.1.1.11 
+config network multicast l2mcast disable service-port 
+config network multicast l2mcast disable virtual 
+config network ms-open port 16000 
+config location expiry tags 5 
+config 802.11b cac voice sip bandwidth 64 sample-interval 20 
+config 802.11b cac voice sip codec g711 sample-interval 20 
+config 802.11b 11gsupport disable 
+config 802.11b cleanair device disable ble-beacon 
+config 802.11b disable network 
+config tacacs athr add encrypt 1 10.100.253.7 49 password 1 38605e1ddefab616092bad0a1e6f067b 2050bb269389bc09ec2ffc8bd4c3a6da0ffeb3a1 32 cc613a0187da5eb4483f6105fc4ceaba34860e926fd5a636a769c9914cab9e64000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs athr server-timeout 1 5 
+config tacacs athr enable 1 
+config tacacs athr add encrypt 2 10.100.253.107 49 password 1 0cf4abb1cef06d31d1e0ed75ec25aa5e 08074001293b55a42e2bc9b37e32fac3dfd20857 32 14bbd159e78627d25c701663492c77549e1a7acbdf10c6582afbcda0646cdfd8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs athr server-timeout 2 5 
+config tacacs athr enable 2 
+config tacacs acct add encrypt 1 10.100.253.7 49 password 1 811cb60f8e8a093982cc76c4c1479a07 43592878643b05bffcef71cce3d6a2a38d7eeae9 32 615d32bca8202b23808c51cfad2a5a7b25afd40ce2beb897abd98e91f23fc29d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs acct server-timeout 1 5 
+config tacacs acct enable 1 
+config tacacs acct add encrypt 2 10.100.253.107 49 password 1 ebcdbab21db38c1291ce98ae1b60a827 cd7ac1ebd1394a111ed102b3988eb7dfc103ca94 32 c6575c0f4576daeefe2f268e3d6f486aad0662c8a3f2940b65c19769d990f521000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs acct server-timeout 2 5 
+config tacacs acct enable 2 
+config tacacs auth add encrypt 1 10.100.253.7 49 password 1 fc6331c74526a2b93ed3ab0251d9262e acfe9a1109e0e60c6f82e7fe5bcec9732b82be4c 32 6b81e4ec915573ed004021c24f105fdc0d0334ee6002c4e1cb3860c85cc2e403000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs auth server-timeout 1 5 
+config tacacs auth enable 1 
+config tacacs auth add encrypt 2 10.100.253.107 49 password 1 006c026dff26f58f9d51f28c80828a3b e5afc467d861def59c01fc4c7f57c8f1f1649d53 32 8aca13a2a6e99000715a50371f3a6592f7503858009a0051952b5a19f3c8fc3b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config tacacs auth server-timeout 2 5 
+config tacacs auth enable 2 
+config spanningtree port mode off 1 
+config spanningtree port mode off 2 
+config sys-nas WLC4 
+config interface vlan management 130 
+config interface address management 10.130.0.3 255.255.0.0 10.130.255.254 
+config interface address virtual 1.1.1.1 
+config interface dhcp management primary 10.100.253.6 
+config interface dhcp service-port disable 
+config time ntp interval 3600 
+config time ntp server 1 10.128.0.1 
+config advanced 802.11a channel add 36 
+config advanced 802.11a channel add 40 
+config advanced 802.11a channel add 44 
+config advanced 802.11a channel add 48 
+config advanced 802.11a channel add 52 
+config advanced 802.11a channel add 56 
+config advanced 802.11a channel add 60 
+config advanced 802.11a channel add 64 
+config advanced 802.11b channel add 1 
+config advanced 802.11b channel add 6 
+config advanced 802.11b channel add 11 
+config certificate generate webauth 
+config mesh convergence 
+config rf-profile channel add 36 High-Client-Density-802.11a 
+config rf-profile channel add 40 High-Client-Density-802.11a 
+config rf-profile channel add 44 High-Client-Density-802.11a 
+config rf-profile channel add 48 High-Client-Density-802.11a 
+config rf-profile channel add 52 High-Client-Density-802.11a 
+config rf-profile channel add 56 High-Client-Density-802.11a 
+config rf-profile channel add 60 High-Client-Density-802.11a 
+config rf-profile channel add 64 High-Client-Density-802.11a 
+config rf-profile channel chan-width 20 High-Client-Density-802.11a 
+config rf-profile create 802.11a High-Client-Density-802.11a 
+config rf-profile tx-power-control-thresh-v1 -65 High-Client-Density-802.11a 
+config rf-profile channel add 1 High-Client-Density-802.11bg 
+config rf-profile channel add 6 High-Client-Density-802.11bg 
+config rf-profile channel add 11 High-Client-Density-802.11bg 
+config rf-profile channel chan-width 20 High-Client-Density-802.11bg 
+config rf-profile create 802.11b High-Client-Density-802.11bg 
+config rf-profile channel add 36 Low-Client-Density-802.11a 
+config rf-profile channel add 40 Low-Client-Density-802.11a 
+config rf-profile channel add 44 Low-Client-Density-802.11a 
+config rf-profile channel add 48 Low-Client-Density-802.11a 
+config rf-profile channel add 52 Low-Client-Density-802.11a 
+config rf-profile channel add 56 Low-Client-Density-802.11a 
+config rf-profile channel add 60 Low-Client-Density-802.11a 
+config rf-profile channel add 64 Low-Client-Density-802.11a 
+config rf-profile channel chan-width 20 Low-Client-Density-802.11a 
+config rf-profile coverage voice -90 Low-Client-Density-802.11a 
+config rf-profile coverage exception 2 Low-Client-Density-802.11a 
+config rf-profile coverage data -90 Low-Client-Density-802.11a 
+config rf-profile create 802.11a Low-Client-Density-802.11a 
+config rf-profile tx-power-control-thresh-v1 -60 Low-Client-Density-802.11a 
+config rf-profile channel add 1 Low-Client-Density-802.11bg 
+config rf-profile channel add 6 Low-Client-Density-802.11bg 
+config rf-profile channel add 11 Low-Client-Density-802.11bg 
+config rf-profile channel chan-width 20 Low-Client-Density-802.11bg 
+config rf-profile coverage voice -90 Low-Client-Density-802.11bg 
+config rf-profile coverage exception 2 Low-Client-Density-802.11bg 
+config rf-profile coverage data -90 Low-Client-Density-802.11bg 
+config rf-profile create 802.11b Low-Client-Density-802.11bg 
+config rf-profile tx-power-control-thresh-v1 -65 Low-Client-Density-802.11bg 
+config rf-profile channel add 36 Typical-Client-Density-802.11a 
+config rf-profile channel add 40 Typical-Client-Density-802.11a 
+config rf-profile channel add 44 Typical-Client-Density-802.11a 
+config rf-profile channel add 48 Typical-Client-Density-802.11a 
+config rf-profile channel add 52 Typical-Client-Density-802.11a 
+config rf-profile channel add 56 Typical-Client-Density-802.11a 
+config rf-profile channel add 60 Typical-Client-Density-802.11a 
+config rf-profile channel add 64 Typical-Client-Density-802.11a 
+config rf-profile channel chan-width 20 Typical-Client-Density-802.11a 
+config rf-profile create 802.11a Typical-Client-Density-802.11a 
+config rf-profile channel add 1 Typical-Client-Density-802.11bg 
+config rf-profile channel add 6 Typical-Client-Density-802.11bg 
+config rf-profile channel add 11 Typical-Client-Density-802.11bg 
+config rf-profile channel chan-width 20 Typical-Client-Density-802.11bg 
+config rf-profile create 802.11b Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11a disabled 6 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a disabled 9 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 12 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 18 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 24 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 36 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 48 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 54 High-Client-Density-802.11a 
+config rf-profile tx-power-min 7 High-Client-Density-802.11a 
+config rf-profile rx-sop threshold -78 High-Client-Density-802.11a 
+config rf-profile data-rates 802.11b disabled 1 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 2 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 5.5 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 11 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 6 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 9 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b mandatory 12 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 18 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 24 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 36 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 48 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 54 High-Client-Density-802.11bg 
+config rf-profile tx-power-min 7 High-Client-Density-802.11bg 
+config rf-profile rx-sop threshold -82 High-Client-Density-802.11bg 
+config rf-profile data-rates 802.11a mandatory 6 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 9 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 12 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 18 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 24 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 36 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 48 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 54 Low-Client-Density-802.11a 
+config rf-profile rx-sop threshold -80 Low-Client-Density-802.11a 
+config rf-profile data-rates 802.11b mandatory 1 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b mandatory 2 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b mandatory 5.5 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b mandatory 11 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 6 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 9 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 12 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 18 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 24 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 36 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 48 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 54 Low-Client-Density-802.11bg 
+config rf-profile rx-sop threshold -85 Low-Client-Density-802.11bg 
+config rf-profile data-rates 802.11a mandatory 6 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 9 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 12 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 18 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a mandatory 24 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 36 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 48 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11a supported 54 Typical-Client-Density-802.11a 
+config rf-profile data-rates 802.11b disabled 1 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 2 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 5.5 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 11 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b disabled 6 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 9 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b mandatory 12 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 18 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 24 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 36 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 48 Typical-Client-Density-802.11bg 
+config rf-profile data-rates 802.11b supported 54 Typical-Client-Density-802.11bg 
+config mobility group domain CL17 
+config countries-list add DE  
+config lag enable 
+config radius acct add encrypt 1 10.100.253.7 1812 password 1 3bf5baf48cd30b109790ff6c1cb8bec4 3e7f4260ef6ecb076b50e824357b15c1aef86d0b 32 4e1088f3673b9e8752c238d9430412619efc040d3d70e0c2ecf76f936ab8966d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config radius acct network 1 enable 
+config radius acct retransmit-timeout 1 2 
+config radius acct add encrypt 2 10.100.253.107 1812 password 1 4e64e578fb5a4884cd786dade9bb70d3 c0e3a3e61ff93176e522591ad0387c7ede2acc58 32 d557161bc238f6d408879f50c81e1ff5d0b10ee8e477e0cf9ca7ba84654690f1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config radius acct network 2 enable 
+config radius acct retransmit-timeout 2 2 
+config radius acct enable 1 
+config radius acct enable 2 
+config radius auth add encrypt 1 10.100.253.7 1812 password 1 278980874f89296631fc145c2cea3369 471f58fc158bf753c3c20fce28ff5c85d9d0eb38 32 f9ec179a4d094a65b8fbb6136ab6d454a70a58836649b76c0f980b44196b3065000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config radius auth network 1 enable 
+config radius auth add encrypt 2 10.100.253.107 1812 password 1 cec1a3ed9bdebb7534e0e1c64a6aaa2f 62b27e9c378c8aadebff94c4dc0348d95c14cde6 32 b817821425e63e14e658ed88a8cf7cf03a11e7b0b5c94c2083e6497c644fb05d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+config radius auth network 2 enable 
+config radius auth retransmit-timeout 1 2 
+config radius auth retransmit-timeout 2 2 
+config radius auth management 1 enable 
+config radius auth management 2 enable 
+config radius auth enable 1 
+config radius auth enable 2 
+config 802.11a cac voice sip bandwidth 64 sample-interval 20 
+config 802.11a cac voice sip codec g711 sample-interval 20 
+config 802.11a disable network 
+config nmsp notification interval rssi rfid 2 
+config ap preferred-mode ipv4 all 
+config ap packet-dump truncate 0 
+config ap packet-dump capture-time 10 
+config ap packet-dump buffer-size 2048 
+config ap bhrate 0 all 
+config mgmtuser add encrypt cisco 1 c04627680f7e5218cfc28e11898fb4db 0655f5ca83a3a1615eec7d918e61e0b4b95d2247 16 5dbc8969b4f12cabab3caf2d2269b7440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 read-write 
+config mgmtuser telnet cisco enable 
+config mdns profile service add default-mdns-profile AirTunes 
+config mdns profile service add default-mdns-profile Airplay 
+config mdns profile service add default-mdns-profile HP_Photosmart_Printer_1 
+config mdns profile service add default-mdns-profile HP_Photosmart_Printer_2 
+config mdns profile service add default-mdns-profile HomeSharing 
+config mdns profile service add default-mdns-profile Printer-IPP 
+config mdns profile service add default-mdns-profile Printer-IPPS 
+config mdns profile service add default-mdns-profile Printer-LPD 
+config mdns profile service add default-mdns-profile Printer-SOCKET 
+config mdns profile create default-mdns-profile 
+config mdns service origin all AirTunes 
+config mdns service create AirTunes _raop._tcp.local. origin all lss disable 
+config mdns service origin all Airplay 
+config mdns service create Airplay _airplay._tcp.local. origin all lss disable 
+config mdns service origin all HP_Photosmart_Printer_1 
+config mdns service query enable HP_Photosmart_Printer_1 
+config mdns service create HP_Photosmart_Printer_1 _universal._sub._ipp._tcp.local. origin all lss disable query enable 
+config mdns service origin all HP_Photosmart_Printer_2 
+config mdns service query enable HP_Photosmart_Printer_2 
+config mdns service create HP_Photosmart_Printer_2 _cups._sub._ipp._tcp.local. origin all lss disable query enable 
+config mdns service origin all HomeSharing 
+config mdns service query enable HomeSharing 
+config mdns service create HomeSharing _home-sharing._tcp.local. origin all lss disable query enable 
+config mdns service origin all Printer-IPP 
+config mdns service create Printer-IPP _ipp._tcp.local. origin all lss disable 
+config mdns service origin all Printer-IPPS 
+config mdns service create Printer-IPPS _ipps._tcp.local. origin all lss disable 
+config mdns service origin all Printer-LPD 
+config mdns service create Printer-LPD _printer._tcp.local. origin all lss disable 
+config mdns service origin all Printer-SOCKET 
+config mdns service create Printer-SOCKET _pdl-datastream._tcp.local. origin all lss disable 
+config mdns policy service-group user-role add default-mdns-policy admin 
+config mdns policy service-group create default-mdns-policy "Default Access Policy created by WLC" 
+config wlan session-timeout 1 1800 
+config wlan broadcast-ssid enable 1 
+config wlan interface 1 management 
+config wlan create 1 provisioning provisioning 
+config wlan dhcp_server 1 0.0.0.0 required 
+config wlan mfp client enable 1 
+config wlan security web-auth server-precedence 1 local radius ldap 
+config wlan security wpa enable 1 
+config wlan wmm allow 1 
+config wlan exclusionlist 1 60 
+config wlan enable 1 
+config aaa auth mgmt local tacacs 
+config country DE 
+config rfid timeout 1200 
+config rfid status enable 
+config rfid mobility pango disable 
+config sysname WLC4 
+config snmp community ipaddr 0.0.0.0 0.0.0.0 CMX-123-chrseb 
+config snmp community delete public 
+config snmp community delete private 
+config snmp community mode disable CMX-123-chrseb 
+config snmp community accessmode rw CMX-123-chrseb 
+config snmp community create CMX-123-chrseb 
+config switchconfig strong-pwd lockout attempts mgmtuser 3 
+config switchconfig strong-pwd lockout time mgmtuser 5 
+transfer download username rmartini 
+transfer download path /usr/home/rmartini/ 
+transfer download serverip 10.100.253.13 
+transfer download mode ftp 
+transfer download filename wlc03-2017-01-25_23-34.txt 
+transfer download port 21 
+transfer download encrypt password 1 0ec7a78c17543d1ac795fb75c0a3e56f 2b95edb2bf5bfa087ef13b88d155f010eb495a57 48 23ca7b1f6fc91712742a57363e962bb55c7e94ff8509eb8b6eae167954b8d9194c2ebdce9f911fb2658191aa02cfd751 
+transfer upload username rmartini 
+transfer upload path /usr/home/rmartini/ 
+transfer upload serverip 10.100.253.13 
+transfer upload mode ftp 
+transfer upload filename wlc03-2017-01-25_23-34.txt 
+transfer upload port 21 
+transfer upload encrypt password 1 0ec7a78c17543d1ac795fb75c0a3e56f 2b95edb2bf5bfa087ef13b88d155f010eb495a57 48 23ca7b1f6fc91712742a57363e962bb55c7e94ff8509eb8b6eae167954b8d9194c2ebdce9f911fb2658191aa02cfd751 
+transfer upload datatype config 
+
+# WLC Config End <Wed Jan 25 23:35:00 2017>

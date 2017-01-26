@@ -1,4 +1,4 @@
-from paramiko_wlc import WlcSSH
+from wlcsshshell import WlcSshShell
 
 DEBUG = True
 
@@ -16,7 +16,7 @@ credentials = {
 
 DEBUG = False
 
-wlc_session = WlcSSH(**credentials)
+wlc_session = WlcSshShell(**credentials)
 print(
 	'''SSH session opened, I am now collecting the configuration,
 	 this might take a while..'''

@@ -15,7 +15,7 @@ transfer download start
 y
 '''
 
-from paramiko_wlc import WlcSSH
+from wlcsshshell import WlcSshShell
 
 controllers = [
 
@@ -43,8 +43,8 @@ credentials = {
 }
 
 if __name__ == '__main__':
-    WlcSSH.DEBUG = True
-    wlc_session = WlcSSH(**credentials)
+    WlcSshShell.DEBUG = True
+    wlc_session = WlcSshShell(**credentials)
     # output = wlc_session.send_command('show sysinfo')
     commands = '''\
 transfer download filename AIR-CT5520-K9-8-2-141-0.aes

@@ -1,0 +1,24 @@
+WLC1:
+  ip: 10.130.0.1
+  name: WLC1
+  port: 11022
+
+WLC3:
+  ip: 10.130.0.3
+  name: WLC3
+  port: 13022
+
+WLC5:
+  ip: 10.130.0.5
+  name: WLC5
+  port: 15022
+
+WLC7:
+  ip: 10.130.0.7
+  name: WLC7
+  port: 17022
+
+WLC9:
+  ip: 10.130.0.9
+  name: WLC9
+  port: 19022

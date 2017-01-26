@@ -5,8 +5,6 @@ import paramiko
 import time
 import re
 
-TROUBLESHOOT = True
-
 if __name__ == '__main__':
     ip = '192.168.4.100'
     # ip = "10.130.0.1"
@@ -31,7 +29,7 @@ if __name__ == '__main__':
     }
 
 
-class WlcSSH(object):
+class WlcSshShell(object):
     '''
     Class to handle WLC ssh connections
     '''
@@ -53,7 +51,7 @@ class WlcSSH(object):
             # When the output is empty
             return False
 
-    def __init__(self, ip, username, password):
+    def __init__(self, ip, username, password, port=22):
         '''
 		Opens SSH connection and logins to the WLC
 		'''
@@ -61,9 +59,11 @@ class WlcSSH(object):
         self.username = username
         self.password = password
         self.session_log = ''
+        self.port = port
         connect_param = {
             'username': username,
             'password': password,
+            'port' : port,
             'look_for_keys': False,
             'allow_agent': False,
         }
@@ -272,22 +272,20 @@ transfer download start\
         if transfer_proto not in ('ftp', 'tftp', 'sftp'):
             raise AttributeError('transfer_proto has to be ftp, tftp, sftp')
         commands = '''\
-transfer download filename {filename}
-transfer download mode {transfer_proto}
-transfer download username {username}
-transfer download password {password}
-transfer download serverip {serverip}
-transfer download path {path}
-transfer download datatype code
-transfer download start\
+transfer upload filename {filename}
+transfer upload mode {transfer_proto}
+transfer upload username {username}
+transfer upload password {password}
+transfer upload serverip {serverip}
+transfer upload path {path}
+transfer upload datatype config
+transfer upload start\
 '''.format(filename=filename,
            transfer_proto=transfer_proto,
            username=username,
            password=password,
            serverip=serverip,
            path=path).splitlines()
-        if TROUBLESHOOT:
-            commands = ['transfer download start']
         output = self.send_commands(commands, pattern=r'Are you sure you want to start\? \(y/N\)')
 
     def show_run(self, file=None):
@@ -332,9 +330,9 @@ transfer download start\
 
 
 if __name__ == '__main__':
-    WlcSSH.DEBUG = True
+    WlcSshShell.DEBUG = True
 
-    wlc_session = WlcSSH(**credentials)
+    wlc_session = WlcSshShell(**credentials)
 
     # wlc_session.load_image(**ftp_settings)
     output = wlc_session.show_run_startup('/Users/rmartini/Desktop/startup_config')
