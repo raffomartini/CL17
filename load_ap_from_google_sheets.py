@@ -1,6 +1,14 @@
 '''
 This will load all the AP list and import them in memory
 '''
+'''
+IMPORTANT
+The credential file has to be the google service account json file pulled from the google API
+the spreadsheet must be shared with the email in the json file
+in my case:
+cat ../google_service_account.json  | grep @
+"client_email": "399823741343-compute@developer.gserviceaccount.com",
+'''
 
 YAML_FILE = 'ap.yml'
 SHEET_NAME = 'CL17 AP LIST - 17th Jan 2017'

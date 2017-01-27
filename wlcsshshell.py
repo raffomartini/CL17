@@ -333,13 +333,14 @@ if __name__ == '__main__':
     WlcSshShell.DEBUG = True
 
     wlc_session = WlcSshShell(**credentials)
-
+    # output = wlc_session.show_run_commands('/Users/rmartini/Desktop/wlc01-c')
     # wlc_session.load_image(**ftp_settings)
-    output = wlc_session.show_run_startup('/Users/rmartini/Desktop/startup_config')
+    #output = wlc_session.show_run_startup('/Users/rmartini/Desktop/startup_config')
     # output = wlc_session.show_run_commands('/Users/rmartini/Desktop/wlc01-c')
     # output = wlc_session.send_command('show sysinfo')
     # output = wlc_session.send_command('show sysinfo')
     # output = wlc_session.show_run('show-run.txt')
+
 #
 # if DEBUG:
 # 	print ('End of show run')

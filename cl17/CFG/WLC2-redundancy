@@ -1,7 +1,0 @@
-
-config interface vlan management 130 
-config interface address management 10.130.0.2 255.255.0.0 10.130.255.254 
-config interface dhcp management primary 10.100.253.6 
-config interface address redundancy-management 10.130.0.12 peer-redundancy-management 10.130.0.11
-config redundancy unit secondary
-config redundancy mode SSO 

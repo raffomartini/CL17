@@ -1,0 +1,2 @@
+config interface create null 666 
+config interface address dynamic-interface null 172.66.66.66 255.255.255.0 172.66.66.91

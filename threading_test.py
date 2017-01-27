@@ -4,6 +4,23 @@ import time, random
 output_print_lock = Lock()
 threads = []
 
+def syncronize(lock):
+    '''
+    Decorator to syncronize methonds / functions
+    :param lock: a lock, obtained from threading.Lock()
+    :return:
+    '''
+
+    def wrap(f):
+        def newFunction(*args, **kwargs):
+            lock.acquire()
+            try:
+                return f(*args, **kwargs)
+            finally:
+                lock.release()
+        return newFunction
+    return wrap
+
 def threading_test(var):
     '''
     Print the variable
@@ -11,7 +28,8 @@ def threading_test(var):
     :return: Nothing
     '''
     time.sleep(random.randrange(10)*0.1)
-    output_print_lock.acquire()
+
+    @synchronized(myLock)
     print('This is thread number {}'.format(var))
     output_print_lock.release()
     time.sleep(random.randrange(5))
@@ -19,11 +37,15 @@ def threading_test(var):
     print('Thread {} done'.format(var))
     output_print_lock.release()
 
+
 for num in range(5):
     worker = Thread(target=threading_test, args=(num,))
     threads.append(worker)
     worker.setDaemon(True)
     worker.start()
+
+
+
 
 for thread in threads:
     thread.join()

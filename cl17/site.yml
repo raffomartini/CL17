@@ -6,7 +6,7 @@
     config_path: "{{ playbook_dir }}/CFG"
   roles:
   - wlc-config-1
-  - wlc-config-redundancy
+#  - wlc-config-redundancy
 
 
 # to run this playbook, issue the command:

@@ -1,0 +1,26 @@
+config flexconnect group stackenblochen add
+config wlan apgroup add stackenblochen stackenblochen
+config wlan apgroup interface-mapping add stackenblochen 17 management
+config wlan apgroup nac-snmp disable stackenblochen 17 
+config wlan create 17 stackenblochen stackenblochen
+config wlan nac snmp disable 17
+config wlan nac radius disable 17 
+config wlan multicast interface 17 disable
+config wlan band-select allow disable 17 
+config wlan load-balance allow disable 17 
+config wlan bss-transition disassociation-imminent timer 200 17
+config wlan bss-transition disassociation-imminent oproam-timer 40 17
+config wlan multicast buffer disable 0 17
+config wlan session-timeout 17 disable
+config wlan flexconnect local-switching 17 enable
+config wlan flexconnect learn-ipaddr 17 enable
+config wlan security splash-page-web-redir disable 17
+config wlan security wpa akm psk enable 17
+config wlan security wpa akm psk set-key ascii whatever 17
+config wlan security wpa akm cckm timestamp-tolerance  1000 17
+config wlan security wpa gtk-random disable 17
+config wlan security pmf association-comeback 1 17
+config wlan security pmf saquery-retrytimeout 200 17
+config wlan profiling radius dhcp disable 17 
+config wlan profiling radius http disable 17 
+config wlan enable 17
