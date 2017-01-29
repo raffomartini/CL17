@@ -29,7 +29,8 @@ def threading_test(var):
     '''
     time.sleep(random.randrange(10)*0.1)
 
-    @synchronized(myLock)
+    # @synchronized(myLock)
+    output_print_lock.acquire()
     print('This is thread number {}'.format(var))
     output_print_lock.release()
     time.sleep(random.randrange(5))
@@ -38,7 +39,7 @@ def threading_test(var):
     output_print_lock.release()
 
 
-for num in range(5):
+for num in range(2):
     worker = Thread(target=threading_test, args=(num,))
     threads.append(worker)
     worker.setDaemon(True)

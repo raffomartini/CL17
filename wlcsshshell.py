@@ -176,9 +176,13 @@ class WlcSshShell(object):
         :return:
         '''
         command_log = []
-        for command in command_list:
-            output = self.send_command(command, verbose, pattern, delay)
-            command_log.append((command,output))
+        if type(command_list) is list:
+            for command in command_list:
+                output = self.send_command(command, verbose, pattern, delay)
+                command_log.append((command,output))
+        else:
+            output = self.send_command(command_list, verbose, pattern, delay)
+            command_log = (command_list, output)
         return command_log
 
     def expected_prompt(self, output, expected='>'):
