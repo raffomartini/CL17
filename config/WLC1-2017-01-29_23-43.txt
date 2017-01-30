@@ -1,0 +1,4 @@
+interface address dynamic-interface noc_clients 10.100.252.1 255.255.255.0 10.100.252.254 
+interface dhcp dynamic-interface noc_clients primary 10.100.253.6 secondary 10.100.253.106 
+interface vlan noc_clients 100 
+interface nasid none noc_clients

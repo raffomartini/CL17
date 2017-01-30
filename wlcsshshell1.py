@@ -6,30 +6,18 @@ import time
 import re
 
 if __name__ == '__main__':
-    import keyring
-    import time
     ip = '192.168.4.100'
-    port = 22
+    # ip = "10.130.0.1"
     username = 'admin'
     password = 'C1sc0123'
-
-    '''CL17'''
-    username = 'rmartini'
-    password = keyring.get_password('cl17ftp', 'rmartini')
-    # in band
-    ip = '10.130.0.1'
-    port = 22
-    # out of band
-    ip = '10.50.140.124'
-    port = 11022
-    '''end of CL17'''
+    # username = 'cisco'
+    # password = 'C1sco123'
 
 
     credentials = {
         'ip': ip,
         'username': username,
         'password': password,
-        'port': port
     }
 
     ftp_settings = {
@@ -38,15 +26,6 @@ if __name__ == '__main__':
         'password' : 'C!sco123',
         'serverip' : '192.168.4.100',
         'path' : '/Users/ftpuser/tftpboot'
-    }
-
-    '''CL17'''
-    ftp_settings = {
-        'filename': 'WlcSshTest-{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M')),
-        'username': 'rmartini',
-        'password': keyring.get_password('cl17ftp', 'rmartini'),
-        'serverip': '10.100.253.13',
-        'path': '/usr/home/rmartini/'
     }
 
 
@@ -72,23 +51,10 @@ class WlcSshShell(object):
             # When the output is empty
             return False
 
-    def __init__(self, ip, username, password, port=22, logfile=None):
+    def __init__(self, ip, username, password, port=22):
         '''
 		Opens SSH connection and logins to the WLC
-		@:param ip: ip address, as a string
-		@:param username: username
-		@:param password: password
-		@:param port: tcp port the WLC is listening to, default is 22
-		@:param logfile: log file, warning it will override if exsisting, default is no log file
 		'''
-        self.logging = False
-        if logfile is not None:
-            # if
-            self.logging = True
-            # 0 means unbuffered: aka the file is updated every time I write - doesn't work because of a bug
-            # 1 means line buffered: aka file updated every line
-            #
-            self.f = open(logfile, 'w+',1)
         self.ip = ip
         self.username = username
         self.password = password
@@ -146,8 +112,6 @@ class WlcSshShell(object):
                 print(buffer.decode())
             # time.sleep(0.1)
             output += buffer
-            if self.logging:
-                self.f.write(buffer.decode())
         return output.decode()
 
     def write(self, command):
@@ -171,6 +135,56 @@ class WlcSshShell(object):
         self.shell_session.send(command_b)
         # time.sleep(0.1)
 
+    def send_command(self, command, verbose=False, pattern=None, delay=None):
+        '''
+        send a command and displays the output
+        :param command
+        :return: ssh session output
+        '''
+        command_log = ''
+        # If the channel is not ready, read it
+        if not (self.shell_session.send_ready()):
+            command_log = self.read(verbose)
+        self.write(command)
+        if delay is not None:
+            time.sleep(delay)
+        while True:
+            output = self.read(verbose)
+            command_log += output
+            # Checks if prompt has returned
+            if self.expected_prompt(output):
+                break
+            # Take care of 'Press Enter to continue'
+            elif self.expected_prompt(output, 'Press Enter to continue.*'):
+                # if Press Enter to continue found, send newline
+                self.write('\n')
+            elif pattern is not None:
+                try:
+                    if self.expected_prompt(output.splitlines()[-1], pattern):
+                    # print('Warning, I''m sending a command with a warning')
+                        self.write('y')
+                except:
+                    pass
+        self.session_log += command_log
+        return command_log
+
+    def send_commands(self, command_list, verbose=False, pattern=None, delay = None):
+        '''
+        Send a sequence of commands, one by one
+        :param command_list:
+        :param verbose:
+        :return:
+        '''
+        command_log = []
+        if type(command_list) is list:
+            for command in command_list:
+                output = self.send_command(command, verbose, pattern, delay)
+                command_log.append((command,output))
+        else:
+            output = self.send_command(command_list, verbose, pattern, delay)
+            command_log = (command_list, output)
+        return command_log
+
     def expected_prompt(self, output, expected='>'):
         '''
         Check whether the output is matching the expected prompt
@@ -183,7 +197,7 @@ class WlcSshShell(object):
         # look for pattern trailing the the output
         # breaks the output in lines and only look in the latest
         try:
-            if re.search(pattern, output.splitlines()[-1], re.IGNORECASE) is not None:
+            if re.search(pattern, output.splitlines()[-1]) is not None:
                 return True
             else:
                 return False
@@ -212,53 +226,8 @@ class WlcSshShell(object):
         # disable paging
         self.disable_paging()
 
-    def send_command(self, command, interactive_io=[('\(y/N\)','y')], verbose=False, delay=None):
-        '''
-        send a command and displays the output
-        :param command: command to send to the WLC, as a string
-        :param interactive_io: use this to get around interactive input, this is a list of tuples expected output / input, e.g. ('\(y/N\)', 'y') to clear the "Continue? (y/N)"
-        :param delay: to introduce delay, not in use
-        :param verbose: prints everything, only for debug purposes
-        :return: ssh session output
-        '''
-        command_log = ''
-        # If the channel is not ready, read it
-        if not (self.shell_session.send_ready()):
-            command_log = self.read(verbose)
-        self.write(command)
-        if delay is not None:
-            time.sleep(delay)
-        while True:
-            output = self.read(verbose)
-            command_log += output
-            # Checks if prompt has returned
-            if self.expected_prompt(output):
-                break
-            # Take care of 'Press Enter to continue'
-            elif self.expected_prompt(output, 'Press Enter to continue.*'):
-                # if Press Enter to continue found, send newline
-                self.write('\n')
-            for io in interactive_io:
-                # e.g. io = (r'(y/N)', 'y')
-                if self.expected_prompt(output, io[0]):
-                    self.write(io[1])
-        self.session_log += command_log
-        return command_log
-
-    def send_commands(self, command_list, verbose=False, delay=None):
-        '''
-        Send a sequence of commands, one by one
-        :param command_list: list of commands
-        :param verbose: only for debugging, default is False
-        :param delay: introduces delay, not needed
-        :return:
-        '''
-        command_log = []
-        if type(command_list) is str:
-            command_list = command_list.splitlines()
-        for command in command_list:
-            output = self.send_command(command, verbose=verbose, delay=delay)
-            command_log.append(output)
+    # if self.DEBUG:
+    # 	print(output)
 
     def disable_paging(self):
         '''
@@ -294,9 +263,9 @@ transfer download start\
            path=path).splitlines()
         if TROUBLESHOOT:
             commands = ['transfer download start']
-        output = self.send_commands(commands)
+        output = self.send_commands(commands, pattern=r'Are you sure you want to start\? \(y/N\)')
 
-    def export_config(self, username, password, filename, serverip, path, transfer_proto='ftp'):
+    def save_config(self, username, password, filename, serverip, path, transfer_proto='ftp'):
         '''
         Download an image on the controller
         :param transfer_proto:
@@ -321,14 +290,14 @@ transfer upload start\
            password=password,
            serverip=serverip,
            path=path).splitlines()
-        output = self.send_commands(commands)
+        output = self.send_commands(commands, pattern=r'Are you sure you want to start\? \(y/N\)')
 
     def show_run(self, file=None):
         '''
         Returns running-config and saves it to a file(optional)
         :return:
         '''
-        output = self.send_command('show run-config')
+        output = self.send_command('show running-config')
         if file is not None:
             with open(file, 'w') as f:
                 f.write(output)
@@ -356,13 +325,6 @@ transfer upload start\
                 f.write(output)
         return output
 
-    def save_config(self):
-        '''
-        Save controller config
-        :return:
-        '''
-        self.send_command('save config')
-
     def close(self):
         '''
         Terminate the shell session
@@ -374,9 +336,7 @@ transfer upload start\
 if __name__ == '__main__':
     WlcSshShell.DEBUG = True
 
-    wlc_session = WlcSshShell(**credentials, logfile='test_logging')
-    # output = wlc_session.send_command('show run-config')
-    # wlc_session.close()
+    wlc_session = WlcSshShell(**credentials)
     # output = wlc_session.show_run_commands('/Users/rmartini/Desktop/wlc01-c')
     # wlc_session.load_image(**ftp_settings)
     #output = wlc_session.show_run_startup('/Users/rmartini/Desktop/startup_config')

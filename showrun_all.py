@@ -30,7 +30,7 @@ threads = []
 # def init()
 
 with open(WLC_FILE) as f:
-    wlcs = yaml.load(f)
+    wlcs = yaml.load(f)['wlcs']
 
 def connect_and_save(wlc):
     '''

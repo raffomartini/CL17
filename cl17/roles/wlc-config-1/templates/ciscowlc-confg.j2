@@ -1,33 +1,73 @@
-config interface create client-131 131
-config interface address dynamic-interface client-131 10.131.0.{{item.ip}} 255.255.0.0 10.131.255.254 
-config interface address dynamic-interface null 172.66.66.66 255.255.255.0 172.66.66.91 
-config interface dhcp dynamic-interface client-131 primary 10.100.253.6 secondary 10.100.253.106 
-config interface vlan client-131 131 
-config interface nasid none client-131 
+config wlan delete 1
+config wlan delete 2
+config interface create noc_clients 100
+config interface address dynamic-interface noc_clients 10.100.252.{{item.ip}} 255.255.255.0 10.100.252.254 
+config interface dhcp dynamic-interface noc_clients primary 10.100.253.6 secondary 10.100.253.106 
+config interface nasid none noc_clients
 !
-config interface create client-132 132
-config interface address dynamic-interface client-132 10.132.0.{{item.ip}} 255.255.0.0 10.132.255.254
-config interface address dynamic-interface null 172.66.66.66 255.255.255.0 172.66.66.91
-config interface dhcp dynamic-interface client-132 primary 10.100.253.6 secondary 10.100.253.106
-config interface vlan client-132 132
-config interface nasid none client-132
+config wlan create 1 CL17_5Gig CL17
+config wlan disable 1
+config wlan security wpa akm 802.1x disable 1
+config wlan security wpa akm psk enable 1
+config wlan security wpa akm psk set-key ascii ciscolive2017 1
+config wlan nasid none 1 
+config wlan mdns disable 1 
+config wlan nac snmp disable 1 
+config wlan nac radius disable 1 
+config wlan interface 1 customer_clients
+config wlan multicast interface 1 disable
+config wlan band-select allow disable 1 
+config wlan load-balance allow enable 1 
+config wlan qos 1 gold 
+config wlan radio 1 802.11a-only 
+config wlan session-timeout 1 disable
+config wlan dhcp_server 1 0.0.0.0 required 
+config wlan profiling radius dhcp disable 1 
+config wlan profiling radius http disable 1 
+config wlan enable 1
 !
-config interface create client-133 133
-config interface address dynamic-interface client-133 10.133.0.{{item.ip}} 255.255.0.0 10.133.255.254
-config interface address dynamic-interface null 172.66.66.66 255.255.255.0 172.66.66.91
-config interface dhcp dynamic-interface client-133 primary 10.100.253.6 secondary 10.100.253.106
-config interface vlan client-133 133
-config interface nasid none client-133
+config wlan create 2 CL17_24Gig CL17_Legacy
+config wlan disable 2
+config wlan security wpa akm 802.1x disable 2
+config wlan security wpa akm psk enable 2
+config wlan security wpa akm psk set-key ascii ciscolive2017 2
+config wlan nasid none 2 
+config wlan mdns disable 2 
+config wlan nac snmp disable 2 
+config wlan nac radius disable 2 
+config wlan interface 2 customer_clients
+config wlan multicast interface 2 disable
+config wlan band-select allow disable 2 
+config wlan load-balance allow enable 2 
+config wlan qos 2 gold 
+config wlan radio 2 802.11g-only
+config wlan session-timeout 2 disable
+config wlan dhcp_server 2 0.0.0.0 required 
+config wlan profiling radius dhcp disable 2 
+config wlan profiling radius http disable 2 
+config wlan enable 2
 !
-config interface create client-134 134
-config interface address dynamic-interface client-134 10.134.0.{{item.ip}} 255.255.0.0 10.134.255.254
-config interface address dynamic-interface null 172.66.66.66 255.255.255.0 172.66.66.91
-config interface dhcp dynamic-interface client-134 primary 10.100.253.6 secondary 10.100.253.106
-config interface vlan client-134 134
-config interface nasid none client-134
+config wlan create 3 CL17_management CL17_management
+config wlan mdns enable 3 
+config wlan nasid none 3 
+config wlan nac snmp disable 3 
+config wlan nac radius disable 3 
+config wlan interface 3 noc_clients
+config wlan multicast interface 3 disable
+config wlan band-select allow disable 3 
+config wlan load-balance allow disable 3 
+config wlan qos 3 platinum 
+config wlan session-timeout 3 1800
+config wlan radius_server auth add 3 1 
+config wlan radius_server auth add 3 2 
+config wlan radius_server acct add 3 1 
+config wlan radius_server acct add 3 2 
+config wlan profiling radius dhcp disable 3 
+config wlan profiling radius http disable 3 
+config wlan enable 3
 !
-config interface group create customer_clients customer_clients
-config interface group interface add customer_clients client-131
-config interface group interface add customer_clients client-132
-config interface group interface add customer_clients client-133
-config interface group interface add customer_clients client-134
+config wlan disable 17
+config wlan security wpa akm 802.1x disable 17
+config wlan security wpa akm psk enable 17
+config wlan security wpa akm psk set-key ascii whatever 17
+config wlan enable 17

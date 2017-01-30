@@ -1,0 +1,17 @@
+
+
+(Cisco Controller) 
+User: rmartini
+Password:*************
+(Cisco Controller) >config paging disable
+
+
+(Cisco Controller) >save config
+
+Are you sure you want to save? (y/n) y
+
+
+Configuration Saved!
+
+(Cisco Controller) >
+(Cisco Controller) >

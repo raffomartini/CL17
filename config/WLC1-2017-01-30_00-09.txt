@@ -1,0 +1,168 @@
+
+
+wlan nasid none 17 
+
+wlan mdns enable 3 
+wlan nasid none 3 
+wlan mdns disable 17 
+wlan mdns disable 1
+wlan mdns disable 3
+
+
+wlan create 1 CL17_5Gig CL17
+wlan nasid none 1 
+wlan mdns disable 1 
+wlan nac snmp disable 1 
+wlan nac radius disable 1 
+wlan interface 1 customer_clients
+
+
+wlan create 3 CL17_management CL17_management
+
+
+
+wlan nac snmp disable 3 
+
+wlan nac snmp disable 17 
+
+
+
+
+wlan nac radius disable 3 
+
+wlan nac radius disable 17 
+
+
+
+wlan interface 3 noc_clients
+
+wlan multicast interface 1 disable
+
+wlan multicast interface 3 disable
+
+wlan multicast interface 17 disable
+
+wlan band-select allow disable 1 
+
+wlan band-select allow disable 3 
+
+wlan band-select allow disable 17 
+
+wlan ccx aironetiesupport  disable 1
+
+wlan load-balance allow enable 1 
+
+wlan load-balance allow disable 3 
+
+wlan load-balance allow disable 17 
+
+wlan bss-transition disassociation-imminent timer 200 1
+
+wlan bss-transition disassociation-imminent timer 200 3
+
+wlan bss-transition disassociation-imminent timer 200 17
+
+wlan bss-transition disassociation-imminent oproam-timer 40 1
+
+wlan bss-transition disassociation-imminent oproam-timer 40 3
+
+wlan bss-transition disassociation-imminent oproam-timer 40 17
+
+wlan multicast buffer disable 0 1
+
+wlan multicast buffer disable 0 3
+
+wlan multicast buffer disable 0 17
+
+wlan qos 1 gold 
+
+wlan qos 3 platinum 
+
+wlan radio 1 802.11a-only 
+
+wlan session-timeout 1 disable
+
+wlan session-timeout 3 1800
+
+wlan session-timeout 17 disable
+
+wlan flexconnect local-switching 1 disable
+
+wlan flexconnect local-switching 3 disable
+
+wlan flexconnect local-switching 17 enable
+
+wlan flexconnect learn-ipaddr 1 enable
+
+wlan flexconnect learn-ipaddr 3 enable
+
+wlan flexconnect learn-ipaddr 17 enable
+
+wlan radius_server auth add 3 1 
+
+wlan radius_server auth add 3 2 
+
+wlan radius_server acct add 3 1 
+
+wlan radius_server acct add 3 2 
+
+wlan security splash-page-web-redir disable 1
+
+wlan security splash-page-web-redir disable 3
+
+wlan security splash-page-web-redir disable 17
+
+wlan security wpa akm psk enable 1
+
+wlan security wpa akm 802.1x enable 3
+
+wlan security wpa akm psk enable 17
+
+wlan security wpa akm cckm timestamp-tolerance  1000 1
+
+wlan security wpa akm cckm timestamp-tolerance  1000 3
+
+wlan security wpa akm cckm timestamp-tolerance  1000 17
+
+
+wlan security wpa gtk-random disable 1
+
+wlan security wpa gtk-random disable 3
+
+wlan security wpa gtk-random disable 17
+
+wlan security pmf association-comeback 1 1
+
+wlan security pmf association-comeback 1 3
+
+wlan security pmf association-comeback 1 17
+
+wlan security pmf saquery-retrytimeout 200 1
+
+wlan security pmf saquery-retrytimeout 200 3
+
+wlan security pmf saquery-retrytimeout 200 17
+
+wlan dhcp_server 1 0.0.0.0 required 
+
+
+
+wlan profiling radius dhcp disable 1 
+
+wlan profiling radius http disable 1 
+
+wlan profiling radius dhcp disable 3 
+
+wlan profiling radius http disable 3 
+
+wlan profiling radius dhcp disable 17 
+
+wlan profiling radius http disable 17 
+
+wlan apgroup hotspot venue type stackenblochen 0 0
+
+wlan enable 1
+
+wlan enable 3
+
+wlan enable 17

@@ -1,0 +1,264 @@
+(Cisco Controller) >config wlan delete 1
+
+
+(Cisco Controller) >config wlan delete 2
+
+
+(Cisco Controller) >config interface create noc_clients 100
+
+Interface name already exists.
+
+(Cisco Controller) >config interface address dynamic-interface noc_clients 10.100.252.3 255.255.255.0 10.100.252.254 
+
+(Cisco Controller) >config interface dhcp dynamic-interface noc_clients primary 10.100.253.6 secondary 10.100.253.106 
+
+
+(Cisco Controller) >config interface nasid none noc_clients
+
+
+(Cisco Controller) >!
+
+Incorrect usage.  Use the '?' or <TAB> key to list commands.
+
+(Cisco Controller) >config wlan create 1 CL17_5Gig CL17
+
+
+(Cisco Controller) >config wlan disable 1
+
+Request failed - already in the requested state.
+
+(Cisco Controller) >config wlan security wpa akm 802.1x disable 1
+
+
+(Cisco Controller) >config wlan security wpa akm psk enable 1
+
+
+(Cisco Controller) >config wlan security wpa akm psk set-key ascii ciscolive2017 1
+
+
+(Cisco Controller) >config wlan nasid none 1 
+
+
+(Cisco Controller) >config wlan mdns disable 1 
+
+
+(Cisco Controller) >config wlan nac snmp disable 1 
+
+ WLAN/Guest-Lan/remote-lan is already in configured state. 
+
+(Cisco Controller) >config wlan nac radius disable 1 
+
+Request failed - already in the requested state.
+
+(Cisco Controller) >config wlan interface 1 customer_clients
+
+
+(Cisco Controller) >config wlan multicast interface 1 disable
+
+
+(Cisco Controller) >config wlan band-select allow disable 1 
+
+Band Select already in the requested state.
+
+(Cisco Controller) >config wlan load-balance allow enable 1 
+
+ WARNING: Allowing load balance on this WLAN may impact time sensitive application like VOICE. Continue? (y/N)y
+
+
+
+(Cisco Controller) >
+(Cisco Controller) >config wlan qos 1 gold 
+
+
+(Cisco Controller) >config wlan radio 1 802.11a-only 
+
+
+(Cisco Controller) >config wlan session-timeout 1 disable
+
+
+(Cisco Controller) >config wlan dhcp_server 1 0.0.0.0 required 
+
+Note: DHCP server override is applicable only to the default AP group.
+
+(Cisco Controller) >config wlan profiling radius dhcp disable 1 
+
+DHCP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan profiling radius http disable 1 
+
+HTTP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan enable 1
+
+
+(Cisco Controller) >!
+
+Incorrect usage.  Use the '?' or <TAB> key to list commands.
+
+(Cisco Controller) >config wlan create 2 CL17_24Gig CL17_Legacy
+
+
+(Cisco Controller) >config wlan disable 2
+
+Request failed - already in the requested state.
+
+(Cisco Controller) >config wlan security wpa akm 802.1x disable 2
+
+
+(Cisco Controller) >config wlan security wpa akm psk enable 2
+
+
+(Cisco Controller) >config wlan security wpa akm psk set-key ascii ciscolive2017 2
+
+
+(Cisco Controller) >config wlan nasid none 2 
+
+
+(Cisco Controller) >config wlan mdns disable 2 
+
+
+(Cisco Controller) >config wlan nac snmp disable 2 
+
+ WLAN/Guest-Lan/remote-lan is already in configured state. 
+
+(Cisco Controller) >config wlan nac radius disable 2 
+
+Request failed - already in the requested state.
+
+(Cisco Controller) >config wlan interface 2 customer_clients
+
+
+(Cisco Controller) >config wlan multicast interface 2 disable
+
+
+(Cisco Controller) >config wlan band-select allow disable 2 
+
+Band Select already in the requested state.
+
+(Cisco Controller) >config wlan load-balance allow enable 2 
+
+ WARNING: Allowing load balance on this WLAN may impact time sensitive application like VOICE. Continue? (y/N)y
+
+
+
+(Cisco Controller) >
+(Cisco Controller) >config wlan qos 2 gold 
+
+
+(Cisco Controller) >config wlan radio 2 802.11g-only
+
+
+(Cisco Controller) >config wlan session-timeout 2 disable
+
+
+(Cisco Controller) >config wlan dhcp_server 2 0.0.0.0 required 
+
+Note: DHCP server override is applicable only to the default AP group.
+
+(Cisco Controller) >config wlan profiling radius dhcp disable 2 
+
+DHCP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan profiling radius http disable 2 
+
+HTTP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan enable 2
+
+
+(Cisco Controller) >!
+
+Incorrect usage.  Use the '?' or <TAB> key to list commands.
+
+(Cisco Controller) >config wlan create 3 CL17_management CL17_management
+
+WLAN Identifier or Profile Name already in use.
+
+(Cisco Controller) >config wlan mdns enable 3 
+
+ Requested state is already set
+
+(Cisco Controller) >config wlan nasid none 3 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan nac snmp disable 3 
+
+ WLAN/Guest-Lan/remote-lan is enabled, please disable to configure NAC. 
+
+(Cisco Controller) >config wlan nac radius disable 3 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan interface 3 noc_clients
+
+Request failed - Wlan is in enabled state.
+
+(Cisco Controller) >config wlan multicast interface 3 disable
+
+Error: WLAN in the enabled state.
+
+(Cisco Controller) >config wlan band-select allow disable 3 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan load-balance allow disable 3 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan qos 3 platinum 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan session-timeout 3 1800
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan radius_server auth add 3 1 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan radius_server auth add 3 2 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan radius_server acct add 3 1 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan radius_server acct add 3 2 
+
+Request failed - WLAN in the enabled state.
+
+(Cisco Controller) >config wlan profiling radius dhcp disable 3 
+
+DHCP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan profiling radius http disable 3 
+
+HTTP Profiling already in the requested state.
+
+(Cisco Controller) >config wlan enable 3
+
+Request failed - already in the requested state.
+
+(Cisco Controller) >!
+
+Incorrect usage.  Use the '?' or <TAB> key to list commands.
+
+(Cisco Controller) >config wlan disable 17
+
+
+(Cisco Controller) >config wlan security wpa akm 802.1x disable 17
+
+
+(Cisco Controller) >config wlan security wpa akm psk enable 17
+
+
+(Cisco Controller) >config wlan security wpa akm psk set-key ascii whatever 17
+
+
+(Cisco Controller) >config wlan enable 17
+
+
+(Cisco Controller) >
