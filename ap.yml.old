@@ -1,0 +1,485 @@
+00:42:68:a0:e3:92: &id096
+  ap_mac: 00:42:68:a0:e3:92
+  ap_name: AP2095-3802i
+  ap_sn: FGL2024XA05
+00:42:68:a0:e7:66: &id097
+  ap_mac: 00:42:68:a0:e7:66
+  ap_name: AP2096-3802i
+  ap_sn: FGL2024XA5S
+00:42:68:a0:e7:9a: &id093
+  ap_mac: 00:42:68:a0:e7:9a
+  ap_name: AP2092-3802i
+  ap_sn: FGL2024XA06
+00:42:68:a0:ed:f6: &id039
+  ap_mac: 00:42:68:a0:ed:f6
+  ap_name: AP2038-3802i
+  ap_sn: FGL2025X715
+00:42:68:a0:f0:b0: &id045
+  ap_mac: 00:42:68:a0:f0:b0
+  ap_name: AP2044-3802i
+  ap_sn: FGL2025X67M
+00:42:68:a0:fa:9c: &id004
+  ap_mac: 00:42:68:a0:fa:9c
+  ap_name: AP2003-3802i
+  ap_sn: FGL2025X70U
+00:42:68:a0:fd:26: &id013
+  ap_mac: 00:42:68:a0:fd:26
+  ap_name: AP2012-3802i
+  ap_sn: FGL2025X69D
+00:42:68:a0:fd:38: &id085
+  ap_mac: 00:42:68:a0:fd:38
+  ap_name: AP2084-3802i
+  ap_sn: FGL2025X68D
+00:42:68:a0:fd:68: &id030
+  ap_mac: 00:42:68:a0:fd:68
+  ap_name: AP2029-3802i
+  ap_sn: FGL2025X70T
+00:42:68:a0:fd:8c: &id084
+  ap_mac: 00:42:68:a0:fd:8c
+  ap_name: AP2083-3802i
+  ap_sn: FGL2025X70Z
+00:42:68:a0:fd:d2: &id089
+  ap_mac: 00:42:68:a0:fd:d2
+  ap_name: AP2088-3802i
+  ap_sn: FGL2025X6AK
+00:42:68:a0:fd:d4: &id048
+  ap_mac: 00:42:68:a0:fd:d4
+  ap_name: AP2047-3802i
+  ap_sn: FGL2025X712
+00:42:68:a0:ff:d2: &id063
+  ap_mac: 00:42:68:a0:ff:d2
+  ap_name: AP2062-3802i
+  ap_sn: FGL2025X651
+00:42:68:a1:00:a2: &id065
+  ap_mac: 00:42:68:a1:00:a2
+  ap_name: AP2064-3802i
+  ap_sn: FGL2025X64V
+00:42:68:a1:00:ae: &id067
+  ap_mac: 00:42:68:a1:00:ae
+  ap_name: AP2066-3802i
+  ap_sn: FGL2025X67F
+00:42:68:a1:00:b4: &id026
+  ap_mac: 00:42:68:a1:00:b4
+  ap_name: AP2025-3802i
+  ap_sn: FGL2025X67E
+00:42:68:a1:00:c8: &id029
+  ap_mac: 00:42:68:a1:00:c8
+  ap_name: AP2028-3802i
+  ap_sn: FGL2025X64U
+00:42:68:a1:00:cc: &id020
+  ap_mac: 00:42:68:a1:00:cc
+  ap_name: AP2019-3802i
+  ap_sn: FGL2025X64T
+00:42:68:a1:00:e6: &id036
+  ap_mac: 00:42:68:a1:00:e6
+  ap_name: AP2035-3802i
+  ap_sn: FGL2025X671
+00:42:68:a1:00:ec: &id025
+  ap_mac: 00:42:68:a1:00:ec
+  ap_name: AP2024-3802i
+  ap_sn: FGL2025X677
+00:42:68:a1:00:fa: &id017
+  ap_mac: 00:42:68:a1:00:fa
+  ap_name: AP2016-3802i
+  ap_sn: FGL2025X68Q
+00:42:68:a1:00:fc: &id072
+  ap_mac: 00:42:68:a1:00:fc
+  ap_name: AP2071-3802i
+  ap_sn: FGL2025X674
+00:42:68:a1:01:14: &id088
+  ap_mac: 00:42:68:a1:01:14
+  ap_name: AP2087-3802i
+  ap_sn: FGL2025X6BA
+00:42:68:a1:01:22: &id028
+  ap_mac: 00:42:68:a1:01:22
+  ap_name: AP2027-3802i
+  ap_sn: FGL2025X66P
+00:42:68:a1:01:38: &id009
+  ap_mac: 00:42:68:a1:01:38
+  ap_name: AP2008-3802i
+  ap_sn: FGL2025X669
+00:42:68:a1:01:3c: &id042
+  ap_mac: 00:42:68:a1:01:3c
+  ap_name: AP2041-3802i
+  ap_sn: FGL2025X678
+00:42:68:a1:02:04: &id058
+  ap_mac: 00:42:68:a1:02:04
+  ap_name: AP2057-3802i
+  ap_sn: FGL2025X69E
+00:42:68:a1:02:0c: &id038
+  ap_mac: 00:42:68:a1:02:0c
+  ap_name: AP2037-3802i
+  ap_sn: FGL2025X654
+00:42:68:a1:02:28: &id047
+  ap_mac: 00:42:68:a1:02:28
+  ap_name: AP2046-3802i
+  ap_sn: FGL2025X655
+00:42:68:a1:02:38: &id046
+  ap_mac: 00:42:68:a1:02:38
+  ap_name: AP2045-3802i
+  ap_sn: FGL2025X675
+00:42:68:a1:02:4c: &id006
+  ap_mac: 00:42:68:a1:02:4c
+  ap_name: AP2005-3802i
+  ap_sn: FGL2025X6A9
+00:42:68:a1:02:78: &id068
+  ap_mac: 00:42:68:a1:02:78
+  ap_name: AP2067-3802i
+  ap_sn: FGL2025X69U
+00:42:68:a1:02:a8: &id066
+  ap_mac: 00:42:68:a1:02:a8
+  ap_name: AP2065-3802i
+  ap_sn: FGL2025X70V
+00:42:68:a1:02:e6: &id035
+  ap_mac: 00:42:68:a1:02:e6
+  ap_name: AP2034-3802i
+  ap_sn: FGL2025X68E
+00:42:68:a1:03:9a: &id034
+  ap_mac: 00:42:68:a1:03:9a
+  ap_name: AP2033-3802i
+  ap_sn: FGL2025X67B
+00:42:68:a1:03:a6: &id080
+  ap_mac: 00:42:68:a1:03:a6
+  ap_name: AP2079-3802i
+  ap_sn: FGL2025X67A
+00:42:68:a1:03:d4: &id003
+  ap_mac: 00:42:68:a1:03:d4
+  ap_name: AP2002-3802i
+  ap_sn: FGL2025X65Y
+00:42:68:a1:03:d8: &id001
+  ap_mac: 00:42:68:a1:03:d8
+  ap_name: AP2000-3802i
+  ap_sn: FGL2025X68A
+00:42:68:a1:03:da: &id002
+  ap_mac: 00:42:68:a1:03:da
+  ap_name: AP2001-3802i
+  ap_sn: FGL2025X67R
+00:42:68:a1:03:e0: &id037
+  ap_mac: 00:42:68:a1:03:e0
+  ap_name: AP2036-3802i
+  ap_sn: FGL2025X660
+00:42:68:a1:03:ea: &id079
+  ap_mac: 00:42:68:a1:03:ea
+  ap_name: AP2078-3802i
+  ap_sn: FGL2025X6AR
+00:42:68:a1:03:ec: &id071
+  ap_mac: 00:42:68:a1:03:ec
+  ap_name: AP2070-3802i
+  ap_sn: FGL2025X68C
+00:42:68:a1:03:f6: &id016
+  ap_mac: 00:42:68:a1:03:f6
+  ap_name: AP2015-3802i
+  ap_sn: FGL2025X6AM
+00:42:68:a1:04:5c: &id050
+  ap_mac: 00:42:68:a1:04:5c
+  ap_name: AP2049-3802i
+  ap_sn: FGL2025X69G
+00:42:68:a1:04:5e: &id077
+  ap_mac: 00:42:68:a1:04:5e
+  ap_name: AP2076-3802i
+  ap_sn: FGL2025X6FH
+00:42:68:a7:52:90: &id051
+  ap_mac: 00:42:68:a7:52:90
+  ap_name: AP2050-3802i
+  ap_sn: FGL2025X6QZ
+00:42:68:a7:53:64: &id024
+  ap_mac: 00:42:68:a7:53:64
+  ap_name: AP2023-3802i
+  ap_sn: FGL2025X6QV
+00:42:68:a7:53:68: &id069
+  ap_mac: 00:42:68:a7:53:68
+  ap_name: AP2068-3802i
+  ap_sn: FGL2025X6PF
+00:42:68:a7:55:8a: &id043
+  ap_mac: 00:42:68:a7:55:8a
+  ap_name: AP2042-3802i
+  ap_sn: FGL2025X6D0
+00:42:68:a7:55:ba: &id023
+  ap_mac: 00:42:68:a7:55:ba
+  ap_name: AP2022-3802i
+  ap_sn: FGL2025X6FQ
+00:42:68:a7:5a:1a: &id070
+  ap_mac: 00:42:68:a7:5a:1a
+  ap_name: AP2069-3802i
+  ap_sn: FGL2025X6LD
+00:42:68:a7:5a:4c: &id087
+  ap_mac: 00:42:68:a7:5a:4c
+  ap_name: AP2086-3802i
+  ap_sn: FGL2025X6GL
+00:42:68:a7:5a:64: &id086
+  ap_mac: 00:42:68:a7:5a:64
+  ap_name: AP2085-3802i
+  ap_sn: FGL2025X6G9
+00:42:68:a7:62:38: &id075
+  ap_mac: 00:42:68:a7:62:38
+  ap_name: AP2074-3802i
+  ap_sn: FGL2025X716
+00:42:68:c5:bd:76: &id007
+  ap_mac: 00:42:68:c5:bd:76
+  ap_name: AP2006-3802i
+  ap_sn: FGL2025X6QW
+00:42:68:c5:be:10: &id060
+  ap_mac: 00:42:68:c5:be:10
+  ap_name: AP2059-3802i
+  ap_sn: FGL2025X6N6
+00:42:68:c5:c1:22: &id008
+  ap_mac: 00:42:68:c5:c1:22
+  ap_name: AP2007-3802i
+  ap_sn: FGL2025X6CP
+00:42:68:c5:c6:b8: &id022
+  ap_mac: 00:42:68:c5:c6:b8
+  ap_name: AP2021-3802i
+  ap_sn: FGL2025X6GS
+00:42:68:c5:c6:d4: &id052
+  ap_mac: 00:42:68:c5:c6:d4
+  ap_name: AP2051-3802i
+  ap_sn: FGL2025X6KM
+00:42:68:c5:c6:e2: &id040
+  ap_mac: 00:42:68:c5:c6:e2
+  ap_name: AP2039-3802i
+  ap_sn: FGL2025X6FC
+00:42:68:c5:c6:ea: &id033
+  ap_mac: 00:42:68:c5:c6:ea
+  ap_name: AP2032-3802i
+  ap_sn: FGL2025X6HN
+00:42:68:c5:c6:f8: &id032
+  ap_mac: 00:42:68:c5:c6:f8
+  ap_name: AP2031-3802i
+  ap_sn: FGL2025X6EX
+00:42:68:c5:c6:fe: &id031
+  ap_mac: 00:42:68:c5:c6:fe
+  ap_name: AP2030-3802i
+  ap_sn: FGL2025X6H6
+00:42:68:c5:c7:2c: &id041
+  ap_mac: 00:42:68:c5:c7:2c
+  ap_name: AP2040-3802i
+  ap_sn: FGL2025X6FW
+00:42:68:c5:d4:38: &id057
+  ap_mac: 00:42:68:c5:d4:38
+  ap_name: AP2056-3802i
+  ap_sn: FGL2025X70R
+00:42:68:c5:db:7e: &id012
+  ap_mac: 00:42:68:c5:db:7e
+  ap_name: AP2011-3802i
+  ap_sn: FGL2025X71J
+58:ac:78:de:56:5a: &id095
+  ap_mac: 58:ac:78:de:56:5a
+  ap_name: AP2094-3802i
+  ap_sn: FGL2024XA0A
+58:ac:78:de:5c:e2: &id094
+  ap_mac: 58:ac:78:de:5c:e2
+  ap_name: AP2093-3802i
+  ap_sn: FGL2024XA3A
+58:ac:78:de:5d:10: &id092
+  ap_mac: 58:ac:78:de:5d:10
+  ap_name: AP2091-3802i
+  ap_sn: FGL2024XA09
+58:ac:78:de:5e:18: &id091
+  ap_mac: 58:ac:78:de:5e:18
+  ap_name: AP2090-3802i
+  ap_sn: FGL2024X9ZR
+58:ac:78:de:89:36: &id015
+  ap_mac: 58:ac:78:de:89:36
+  ap_name: AP2014-3802i
+  ap_sn: FGL2025X6RB
+58:ac:78:de:8a:cc: &id064
+  ap_mac: 58:ac:78:de:8a:cc
+  ap_name: AP2063-3802i
+  ap_sn: FGL2025X659
+58:ac:78:de:8b:64: &id021
+  ap_mac: 58:ac:78:de:8b:64
+  ap_name: AP2020-3802i
+  ap_sn: FGL2025X70X
+58:ac:78:de:8c:d2: &id061
+  ap_mac: 58:ac:78:de:8c:d2
+  ap_name: AP2060-3802i
+  ap_sn: FGL2025X6PM
+58:ac:78:de:8d:c4: &id011
+  ap_mac: 58:ac:78:de:8d:c4
+  ap_name: AP2010-3802i
+  ap_sn: FGL2025X64W
+58:ac:78:de:8d:c8: &id010
+  ap_mac: 58:ac:78:de:8d:c8
+  ap_name: AP2009-3802i
+  ap_sn: FGL2025X650
+58:ac:78:de:8d:e8: &id073
+  ap_mac: 58:ac:78:de:8d:e8
+  ap_name: AP2072-3802i
+  ap_sn: FGL2025X670
+58:ac:78:de:8e:1e: &id019
+  ap_mac: 58:ac:78:de:8e:1e
+  ap_name: AP2018-3802i
+  ap_sn: FGL2025X67D
+58:ac:78:de:8e:36: &id074
+  ap_mac: 58:ac:78:de:8e:36
+  ap_name: AP2073-3802i
+  ap_sn: FGL2025X64S
+58:ac:78:de:8e:48: &id005
+  ap_mac: 58:ac:78:de:8e:48
+  ap_name: AP2004-3802i
+  ap_sn: FGL2025X69B
+58:ac:78:de:8e:58: &id059
+  ap_mac: 58:ac:78:de:8e:58
+  ap_name: AP2058-3802i
+  ap_sn: FGL2025X68T
+58:ac:78:de:8e:60: &id078
+  ap_mac: 58:ac:78:de:8e:60
+  ap_name: AP2077-3802i
+  ap_sn: FGL2025X679
+58:ac:78:de:8e:6c: &id014
+  ap_mac: 58:ac:78:de:8e:6c
+  ap_name: AP2013-3802i
+  ap_sn: FGL2025X690
+58:ac:78:de:8e:72: &id027
+  ap_mac: 58:ac:78:de:8e:72
+  ap_name: AP2026-3802i
+  ap_sn: FGL2025X65D
+58:ac:78:de:8e:76: &id082
+  ap_mac: 58:ac:78:de:8e:76
+  ap_name: AP2081-3802i
+  ap_sn: FGL2025X65F
+58:ac:78:de:8e:7a: &id083
+  ap_mac: 58:ac:78:de:8e:7a
+  ap_name: AP2082-3802i
+  ap_sn: FGL2025X65C
+58:ac:78:de:8e:7c: &id018
+  ap_mac: 58:ac:78:de:8e:7c
+  ap_name: AP2017-3802i
+  ap_sn: FGL2025X65E
+58:ac:78:de:8e:7e: &id081
+  ap_mac: 58:ac:78:de:8e:7e
+  ap_name: AP2080-3802i
+  ap_sn: FGL2025X65B
+58:ac:78:de:8e:80: &id055
+  ap_mac: 58:ac:78:de:8e:80
+  ap_name: AP2054-3802i
+  ap_sn: FGL2025X66K
+58:ac:78:de:8e:82: &id054
+  ap_mac: 58:ac:78:de:8e:82
+  ap_name: AP2053-3802i
+  ap_sn: FGL2025X66R
+58:ac:78:de:8e:90: &id053
+  ap_mac: 58:ac:78:de:8e:90
+  ap_name: AP2052-3802i
+  ap_sn: FGL2025X68S
+58:ac:78:de:8e:a2: &id056
+  ap_mac: 58:ac:78:de:8e:a2
+  ap_name: AP2055-3802i
+  ap_sn: FGL2025X656
+58:ac:78:de:8f:1a: &id049
+  ap_mac: 58:ac:78:de:8f:1a
+  ap_name: AP2048-3802i
+  ap_sn: FGL2025X697
+58:ac:78:de:91:54: &id044
+  ap_mac: 58:ac:78:de:91:54
+  ap_name: AP2043-3802i
+  ap_sn: FGL2025X68F
+58:ac:78:de:91:56: &id076
+  ap_mac: 58:ac:78:de:91:56
+  ap_name: AP2075-3802i
+  ap_sn: FGL2025X6FG
+58:ac:78:de:91:ba: &id062
+  ap_mac: 58:ac:78:de:91:ba
+  ap_name: AP2061-3802i
+  ap_sn: FGL2025X68K
+58:ac:78:de:94:0a: &id090
+  ap_mac: 58:ac:78:de:94:0a
+  ap_name: AP2089-3802i
+  ap_sn: FGL2025X658
+AP2000-3802i: *id001
+AP2001-3802i: *id002
+AP2002-3802i: *id003
+AP2003-3802i: *id004
+AP2004-3802i: *id005
+AP2005-3802i: *id006
+AP2006-3802i: *id007
+AP2007-3802i: *id008
+AP2008-3802i: *id009
+AP2009-3802i: *id010
+AP2010-3802i: *id011
+AP2011-3802i: *id012
+AP2012-3802i: *id013
+AP2013-3802i: *id014
+AP2014-3802i: *id015
+AP2015-3802i: *id016
+AP2016-3802i: *id017
+AP2017-3802i: *id018
+AP2018-3802i: *id019
+AP2019-3802i: *id020
+AP2020-3802i: *id021
+AP2021-3802i: *id022
+AP2022-3802i: *id023
+AP2023-3802i: *id024
+AP2024-3802i: *id025
+AP2025-3802i: *id026
+AP2026-3802i: *id027
+AP2027-3802i: *id028
+AP2028-3802i: *id029
+AP2029-3802i: *id030
+AP2030-3802i: *id031
+AP2031-3802i: *id032
+AP2032-3802i: *id033
+AP2033-3802i: *id034
+AP2034-3802i: *id035
+AP2035-3802i: *id036
+AP2036-3802i: *id037
+AP2037-3802i: *id038
+AP2038-3802i: *id039
+AP2039-3802i: *id040
+AP2040-3802i: *id041
+AP2041-3802i: *id042
+AP2042-3802i: *id043
+AP2043-3802i: *id044
+AP2044-3802i: *id045
+AP2045-3802i: *id046
+AP2046-3802i: *id047
+AP2047-3802i: *id048
+AP2048-3802i: *id049
+AP2049-3802i: *id050
+AP2050-3802i: *id051
+AP2051-3802i: *id052
+AP2052-3802i: *id053
+AP2053-3802i: *id054
+AP2054-3802i: *id055
+AP2055-3802i: *id056
+AP2056-3802i: *id057
+AP2057-3802i: *id058
+AP2058-3802i: *id059
+AP2059-3802i: *id060
+AP2060-3802i: *id061
+AP2061-3802i: *id062
+AP2062-3802i: *id063
+AP2063-3802i: *id064
+AP2064-3802i: *id065
+AP2065-3802i: *id066
+AP2066-3802i: *id067
+AP2067-3802i: *id068
+AP2068-3802i: *id069
+AP2069-3802i: *id070
+AP2070-3802i: *id071
+AP2071-3802i: *id072
+AP2072-3802i: *id073
+AP2073-3802i: *id074
+AP2074-3802i: *id075
+AP2075-3802i: *id076
+AP2076-3802i: *id077
+AP2077-3802i: *id078
+AP2078-3802i: *id079
+AP2079-3802i: *id080
+AP2080-3802i: *id081
+AP2081-3802i: *id082
+AP2082-3802i: *id083
+AP2083-3802i: *id084
+AP2084-3802i: *id085
+AP2085-3802i: *id086
+AP2086-3802i: *id087
+AP2087-3802i: *id088
+AP2088-3802i: *id089
+AP2089-3802i: *id090
+AP2090-3802i: *id091
+AP2091-3802i: *id092
+AP2092-3802i: *id093
+AP2093-3802i: *id094
+AP2094-3802i: *id095
+AP2095-3802i: *id096
+AP2096-3802i: *id097

@@ -246,18 +246,11 @@ class Ap_Lookup():
         # del ap_lookup[key] -> delete ap from lookup
         self.del_ap(key)
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
     aps = Ap_Lookup()
     # print(sheet.worksheets())
     aps.open_sheets()
-    aps.read_worksheets(range(1,2))
+    aps.read_worksheets(range(4,12))
     aps.save()
     # aps.save_to_gsheets()
 
