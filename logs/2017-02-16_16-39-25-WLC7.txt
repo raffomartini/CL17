@@ -1,9 +1,0 @@
-
-
-(WLC7) 
-User: rmartini
-Password:*************
-(WLC7) >config paging disable
-
-
-(WLC7) >

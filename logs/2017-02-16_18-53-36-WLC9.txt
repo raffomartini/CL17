@@ -1,9 +1,0 @@
-
-
-(WLC9) 
-User: rmartini
-Password:*************
-(WLC9) >config paging disable
-
-
-(WLC9) >
