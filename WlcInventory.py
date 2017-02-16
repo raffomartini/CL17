@@ -12,7 +12,7 @@ config snmp v3user create CLEUR rw hmacsha des C1tyCu6eB3rl1n C1tyCu6eB3rl1n
 
 WlcSshShell.DEBUG = False
 WLC_FILE = 'wlc.yml'
-REMOTE = True
+REMOTE = False
 CONFIG_FILE = '{}-ciscowlc-confg'
 CONFIG_FILE_PATH = 'cl17/CFG/'
 
@@ -61,7 +61,7 @@ class WlcInventory():
     '''
     Class to manage multiple WLC
     '''
-    REMOTE = True
+    REMOTE = REMOTE
 
     def __init__(self, file=WLC_FILE):
         '''
@@ -156,6 +156,7 @@ ftp:
             ip = remote_ip
             port = wlc['port']
         else:
+            ip = wlc['ip']
             port = 22
         session_parameters = {
             'ip': ip,
@@ -223,6 +224,7 @@ ftp:
         elif type(output) is str:
             # case send_command in use
             self.lock_and_print('{}{}{}'.format(20 * '-', wlc_name, 20 * '-'), output)
+        return output
 
     def close(self, wlc_name):
         '''
@@ -304,7 +306,7 @@ if __name__ == '__main__':
     wlcs = WlcInventory()
     # wlcs.connect('WLC9')
     wlcs.connect_to_many()
-    wlcs.save_all()
+    # wlcs.save_all()
     # wlcs.connect_to_many(exclude_list=['WLC9'])
     # wlcs.close_all()
     # wlcs.connect_to_many(['WLC1'])
@@ -314,7 +316,9 @@ if __name__ == '__main__':
     # working
     # wlcs.send_instruction('WLC1',commands_from_file=True)
     # wlcs.send_command_to_many(['WLC1'])
-    # wlcs.send_command_to_many(commands, exclude_list=['WLC9'])
+    # wlcs.send_command_to_many(['WLC1'])
+    wlcs.send_command_to_many(None, ['config ap mgmtuser add username ramon password wZUb3W6mwUXrEgbR secret wZUb3W6mwUXrEgbR all'])
+    wlcs.save_all()
     # wlcs.connect('WLC1')
     # wlcs.send_instruction('WLC1',WlcSshShell.send_command, 'show interface summary')
     # wlcs.close('WLC1')

@@ -1,0 +1,9 @@
+
+
+(WLC3) 
+User: rmartini
+Password:*************
+(WLC3) >config paging disable
+
+
+(WLC3) >

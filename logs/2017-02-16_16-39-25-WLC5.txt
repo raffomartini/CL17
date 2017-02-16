@@ -1,0 +1,9 @@
+
+
+(WLC5) 
+User: rmartini
+Password:*************
+(WLC5) >config paging disable
+
+
+(WLC5) >

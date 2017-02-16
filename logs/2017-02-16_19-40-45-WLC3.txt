@@ -1,0 +1,153 @@
+
+
+(WLC3) 
+User: rmartini
+Password:*************
+(WLC3) >config paging disable
+
+
+(WLC3) >config ap primary-base WLC3 AP1840-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1842-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1844-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1843-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1841-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1806-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1805-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1802-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1800-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1804-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1803-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1817-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1816-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1818-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1815-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1814-3802e 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2067-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2094-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2070-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2060-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2090-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2066-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2091-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2088-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2093-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2071-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2092-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2089-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2059-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2075-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2063-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2061-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2062-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1679-3702p 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP2079-3802i 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >config ap primary-base WLC3 AP1701-3702p 10.130.0.3
+
+Cisco AP name is invalid.
+
+(WLC3) >

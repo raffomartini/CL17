@@ -1,15 +1,21 @@
 '''
 This will load all the AP list and import them in memory
+Example of use:
+
 '''
+import gspread, os, yaml, time
+import csv, sys
+from oauth2client.service_account import ServiceAccountCredentials
 
 YAML_FILE = 'ap.yml'
 SHEET_NAME = 'CL17 AP LIST - 17th Jan 2017'
 GOOGLE_CREDENTIALS_FILE = '../google_service_account.json'
-location = 'CL17'
+COL_MAC = 'h'
+COL_NAM = 'i'
+COL_INV = 'j'
+COL_SN = 'b'
 
-import gspread, os, yaml, time
-import csv, sys
-from oauth2client.service_account import ServiceAccountCredentials
+location = 'CL17'
 
 class Ap_Lookup():
     '''
@@ -109,12 +115,12 @@ class Ap_Lookup():
 
 
 
-    def read_worksheet(self, id, col_mac='h', col_name='i', col_process ='j', col_sn='b'):
+    def read_worksheet(self, id, col_mac=COL_MAC, col_name=COL_NAM, col_inv =COL_INV, col_sn=COL_SN):
         '''
         :param id: ordinal id of the spreadheet, e.g sencond tab = 1; fifth tab = 4
-        :param mac_addr: column where the mac address is
-        :param ap_name: colum with ap_names
-        :param process: column that instructs to process the line, e.g. 'CL 2017 Audit'
+        :param col_mac: column where the mac address is
+        :param col_name: colum with ap_names
+        :param col_inv: column that instructs to process the line, e.g. 'CL 2017 Audit'
         :return: dictionary with all APs
         '''
         if self.sheet is None:
@@ -125,7 +131,7 @@ class Ap_Lookup():
         col = lambda x: ord(x) - ord('a')
         col_mac = col(col_mac)
         col_name = col(col_name)
-        col_process = col(col_process)
+        col_process = col(col_inv)
         col_sn = col(col_sn)
         #
         mac = lambda mac : ':'.join([mac.lower()[i:i+2] for i in range(0, len(mac), 2)])
@@ -141,14 +147,21 @@ class Ap_Lookup():
                 ap = {'ap_mac': ap_mac, 'ap_name': ap_name, 'ap_sn': ap_sn}
                 self.add_ap(ap)
 
-    def read_worksheets(self,sheets):
-        '''
+    def read_worksheets(self,sheets, cols=None):
+        """
         Import multiple sheets
         :param sheets: list of sheets id (ord number from 0 to n)
         :return:
-        '''
+        """
+        if cols is None:
+            cols = {
+                'col_mac' : COL_MAC,
+                'col_name' : COL_NAM,
+                'col_inv' : COL_INV,
+                'col_sn' : COL_SN}
+            
         for id in sheets:
-            self.read_worksheet(id)
+            self.read_worksheet(id,**cols)
 
     def save(self,file=YAML_FILE):
         '''

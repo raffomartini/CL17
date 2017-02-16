@@ -1,0 +1,549 @@
+
+
+(Cisco Controller) 
+User: rmartini
+Password:*************
+(Cisco Controller) >config paging disable
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_307
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_181
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_136
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_302
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_148
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_180
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_99
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_250
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_22
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_316
+
+
+(Cisco Controller) >config ap primary-base WLC5 AP1325-2702i
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_247
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_175
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_158
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_252
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_84
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_26
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_12
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_295
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_292
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_42
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_183
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_98
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_27
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_169
+
+
+(Cisco Controller) >config ap primary-base WLC5 AP1330-2702i
+
+
+(Cisco Controller) >config ap primary-base WLC5 AP1311-2702i
+
+
+(Cisco Controller) >config ap primary-base WLC5 AP1334-2702i
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_185
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_134
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_198
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_323
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_38
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_231
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_130
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_128
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_25
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_101
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_216
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_73
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_70
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_4
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_322
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_229
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_20
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_109
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_273
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_324
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_294
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_34
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_230
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_112
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_314
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_275
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_36
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_57
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_266
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_133
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_204
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_24
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_23
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_102
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_293
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_96
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_11
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_29
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_182
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_124
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_184
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_77
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_214
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_232
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_137
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_19
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_313
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_113
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_120
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_135
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_37
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_171
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_62
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_41
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_157
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_255
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_220
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_161
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_299
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_298
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_159
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_40
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_131
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_150
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_32
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_162
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_194
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_123
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_100
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_248
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_69
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_306
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_149
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_71
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_276
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_129
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.2_AP_223
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.1_AP_21
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_61
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_006.2_AP_199
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_296
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_221
+
+
+(Cisco Controller) >config ap primary-base WLC5 AP1314-2702i
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_003.2_AP_138
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_125
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_336
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_143
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_48
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_49
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_334
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_332
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_219
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_218
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_68
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_67
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_66
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_51
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_274
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_241
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_132
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_260
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_272
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_320
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_45
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_65
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_261
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_167
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_268
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_243
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_329
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_116
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_107
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_13
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_192
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_168
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_117
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_172
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_246
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_82
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_337
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_244
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_75
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_63
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_145
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_119
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_64
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_16
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_245
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_328
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_76
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_330
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_121
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_144
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.1_AP_60
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_104
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_35
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_108
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_52
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_001.1_AP_47
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_118
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.2_AP_259
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_002.1_AP_105
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_212
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_210
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_126
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_127
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_301
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_300
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_297
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_191
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_33
+
+
+(Cisco Controller) >config ap primary-base WLC5 H_004.2_AP_190
+
+
+(Cisco Controller) >

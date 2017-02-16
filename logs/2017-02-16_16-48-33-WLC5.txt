@@ -1,0 +1,20 @@
+
+
+(WLC5) 
+User: rmartini
+Password:*************
+(WLC5) >config paging disable
+
+
+(WLC5) >config ap mgmtuser add username ramon password wZUb3W6mwUXrEgbR secret wZUb3W6mwUXrEgbR all
+
+
+(WLC5) >save config
+
+Are you sure you want to save? (y/n) y
+
+
+Configuration Saved!
+
+(WLC5) >
+(WLC5) >

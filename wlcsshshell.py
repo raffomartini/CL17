@@ -259,6 +259,7 @@ class WlcSshShell(object):
         for command in command_list:
             output = self.send_command(command, verbose=verbose, delay=delay)
             command_log.append(output)
+        return command_log
 
     def disable_paging(self):
         '''
