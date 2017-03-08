@@ -5,12 +5,19 @@
   vars:
     config_path: "{{ playbook_dir }}/CFG"
     config_snippets: "{{ playbook_dir }}/snippets"
+    wlans:
+      CL17: { wlan_id: 1, if_name: customer_clients }
+      mgmt: { wlan_id: 22, if_name: noc_clients }
+      IPV6: { wlan_id: 4, if_name: v6}  
+      CL17-24: { wlan_id: 21, if_name: customer_clients }        
+      demo: { wlan_id: 23, if_name: demo}
 
   roles:
   - ap-groups
   - rf-profile  
   - interfaces
   - wlc-config
+  # - test
   # rf-profile creates all the rf-profile defined in the rf-profile variables  
   
   # ap-groups creates all the ap-group, 

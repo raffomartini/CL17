@@ -1,0 +1,5 @@
+config wlan apgroup add CL17-DevNet
+config wlan apgroup interface-mapping add CL17-DevNet 1 customer_clients
+config wlan apgroup interface-mapping add CL17-DevNet 4 v6
+config wlan apgroup interface-mapping add CL17-DevNet 22 noc_clients
+config wlan apgroup profile-mapping add CL17-DevNet Standard_a

@@ -1,0 +1,4 @@
+---
+#ap-groups/vars/main.yml   
+
+wlans_path: "{{role_path}}/wlans"

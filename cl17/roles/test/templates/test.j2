@@ -1,0 +1,4 @@
+config wlan apgroup profile-mapping add {{item.name}} {{item.rf_profile_a}}
+{% if item.rf_profile_b != "None"%}
+config wlan apgroup profile-mapping add {{item.name}} {{item.rf_profile_b}}
+{% endif %}

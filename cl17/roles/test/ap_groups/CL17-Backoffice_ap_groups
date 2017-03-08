@@ -1,0 +1,7 @@
+config wlan apgroup add CL17-Backoffice
+config wlan apgroup interface-mapping add CL17-Backoffice 1 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 21 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 4 v6
+config wlan apgroup interface-mapping add CL17-Backoffice 22 noc_clients
+config wlan apgroup profile-mapping add CL17-Backoffice Standard_a
+config wlan apgroup profile-mapping add CL17-Backoffice Standard_b

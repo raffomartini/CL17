@@ -1,0 +1,5 @@
+config wlan apgroup add CL17-WOS
+config wlan apgroup interface-mapping add CL17-WOS 1 customer_clients
+config wlan apgroup interface-mapping add CL17-WOS 4 v6
+config wlan apgroup interface-mapping add CL17-WOS 22 noc_clients
+config wlan apgroup profile-mapping add CL17-WOS Standard_a

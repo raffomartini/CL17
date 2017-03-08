@@ -1,5 +1,5 @@
 ---
-#ap-groups/vars/main.yml   
+#test/vars/main.yml   
 
 ap_groups_path: "{{role_path}}/ap_groups"
 
