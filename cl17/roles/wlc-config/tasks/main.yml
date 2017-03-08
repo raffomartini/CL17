@@ -1,0 +1,11 @@
+---
+#roles/wlc-config/tasks/main.yml
+- name: assemble config file
+  assemble: 
+    src="{{config_snippets}}"
+    dest="{{role_path}}/templates/config.j2"
+    regexp="^[^.]"
+- name: Generate config
+  template: src=config.j2 dest="{{config_path}}/{{item.hostname}}-ciscowlc-confg"
+  # loops over the switches defined in the vars folder
+  with_items: "{{ controllers }}"

@@ -1,0 +1,11 @@
+---
+#rf-profile/vars/main.yml
+rf_profile_path: "{{ role_path }}/profiles"
+
+rf_profiles_a:
+  - {profile_name: Standard_a }
+  - {profile_name: Keynote_a }
+  - {profile_name: Demo_a }
+rf_profiles_b:
+  - {profile_name: Standard_b }
+  - {profile_name: Demo_b }

@@ -1,0 +1,13 @@
+---
+#rf-profile/tasks/main.yml
+- name: generate ap-groups
+  template: 
+    src=ap_groups.j2
+    dest="{{ap_groups_path}}/{{item.name}}_ap_groups"
+  # loops over the rf_profiles defined in the vars folder
+  with_items: "{{ ap_groups }}"
+- name: assemble config file
+  assemble: 
+    src="{{ap_groups_path}}"
+    dest="{{config_snippets}}/ap_groups"
+    regexp=".*_ap_groups"

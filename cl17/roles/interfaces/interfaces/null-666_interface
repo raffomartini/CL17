@@ -1,0 +1,5 @@
+config interface create null-666 666
+config interface address dynamic-interface null-666 172.66.66.{{0 + item.ip}} 172.66.66.254
+config interface dhcp dynamic-interface null-666 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan null-666 666
+config interface nasid none null-666

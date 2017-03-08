@@ -1,9 +1,14 @@
 ---
 #wlc-config-1/vars/main.yml
 controllers:
-  - {hostname: WLC1, mgmt: 10.130.0.1, ip: 1, redundancy: 10.130.0.11, peer: 10.130.0.12, role: primary}
-  - {hostname: WLC3, mgmt: 10.130.0.3, ip: 3, redundancy: 10.130.0.13, peer: 10.130.0.14, role: primary}
-  - {hostname: WLC5, mgmt: 10.130.0.5, ip: 5, redundancy: 10.130.0.15, peer: 10.130.0.16, role: primary}
-  - {hostname: WLC7, mgmt: 10.130.0.7, ip: 7, redundancy: 10.130.0.17, peer: 10.130.0.18, role: primary}
-  - {hostname: WLC9, mgmt: 10.130.0.9, ip: 9, redundancy: 10.130.0.19, peer: 10.130.0.12, role: primary}
+  - {hostname:  WLC1, ip:  1}
+  - {hostname:  WLC2, ip:  2}
+  - {hostname:  WLC3, ip:  3}
+  - {hostname:  WLC4, ip:  4}
+  - {hostname:  WLC5, ip:  5}
+  - {hostname:  WLC6, ip:  6}
+  - {hostname:  WLC7, ip:  7}
+  - {hostname:  WLC8, ip:  8}
+  - {hostname:  WLC9, ip:  9}
+  - {hostname: WLC10, ip: 10}
   

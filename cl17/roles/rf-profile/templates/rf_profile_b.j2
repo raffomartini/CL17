@@ -1,0 +1,21 @@
+config rf-profile create 802.11b {{item.profile_name}}
+config rf-profile trap-threshold interference 80 {{item.profile_name}}
+config rf-profile channel add 1 {{item.profile_name}}
+config rf-profile channel add 6 {{item.profile_name}}
+config rf-profile channel add 11 {{item.profile_name}}
+config rf-profile channel chan-width 20 {{item.profile_name}}
+config rf-profile coverage exception 30 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 1 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 2 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 5.5 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 11 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 6 {{item.profile_name}}
+config rf-profile data-rates 802.11b disabled 9 {{item.profile_name}}
+config rf-profile data-rates 802.11b mandatory 12 {{item.profile_name}}
+config rf-profile data-rates 802.11b supported 18 {{item.profile_name}}
+config rf-profile data-rates 802.11b supported 24 {{item.profile_name}}
+config rf-profile data-rates 802.11b supported 36 {{item.profile_name}}
+config rf-profile data-rates 802.11b supported 48 {{item.profile_name}}
+config rf-profile data-rates 802.11b supported 54 {{item.profile_name}}
+config rf-profile tx-power-min 7 {{item.profile_name}}
+config rf-profile rx-sop threshold -82 {{item.profile_name}}

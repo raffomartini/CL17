@@ -1,0 +1,4 @@
+config wlan apgroup add CL17-Keynote-demo
+config wlan apgroup interface-mapping add CL17-Keynote-demo 23 demo
+config wlan apgroup profile-mapping add CL17-Keynote-demo Demo_a
+config wlan apgroup profile-mapping add CL17-Keynote-demo Demo_b

@@ -1,0 +1,39 @@
+config interface create client-131 131
+config interface address dynamic-interface client-131 10.131.0.{{0 + item.ip}} 10.131.255.254
+config interface dhcp dynamic-interface client-131 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan client-131 131
+config interface nasid none client-131
+config interface create client-132 132
+config interface address dynamic-interface client-132 10.132.0.{{0 + item.ip}} 10.132.255.254
+config interface dhcp dynamic-interface client-132 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan client-132 132
+config interface nasid none client-132
+config interface create client-133 133
+config interface address dynamic-interface client-133 10.133.0.{{0 + item.ip}} 10.133.255.254
+config interface dhcp dynamic-interface client-133 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan client-133 133
+config interface nasid none client-133
+config interface create client-134 134
+config interface address dynamic-interface client-134 10.134.0.{{0 + item.ip}} 10.134.255.254
+config interface dhcp dynamic-interface client-134 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan client-134 134
+config interface nasid none client-134
+config interface vlan management 130 
+config interface address management 10.130.0.{{0 + item.ip}} 130.130.255.254
+config interface dhcp management primary 10.100.253.6 secondary 10.100.253.106
+config redundancy management-gateway-failover disable 
+config interface create noc-clients-100 100
+config interface address dynamic-interface noc-clients-100 10.100.252.{{0 + item.ip}} 10.100.252.254
+config interface dhcp dynamic-interface noc-clients-100 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan noc-clients-100 100
+config interface nasid none noc-clients-100
+config interface create null-666 666
+config interface address dynamic-interface null-666 172.66.66.{{0 + item.ip}} 172.66.66.254
+config interface dhcp dynamic-interface null-666 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan null-666 666
+config interface nasid none null-666
+config interface create v6-135 135
+config interface address dynamic-interface v6-135 10.135.0.{{0 + item.ip}} 10.135.255.254
+config interface dhcp dynamic-interface v6-135 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan v6-135 135
+config interface nasid none v6-135

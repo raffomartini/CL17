@@ -1,33 +1,13 @@
-from wlcsshshell import WlcSshShell
-import keyring
-import time
-
-WlcSshShell.DEBUG = True
-
-ip = "10.50.140.124"
-username = 'cisco'
-wlc_password = 'C1sco123'
-port = 13022
-
-wlc3 = {
-    'ip': ip,
-    'username': username,
-    'password': wlc_password,
-    'port': port
-}
-
-ftp_settings = {
-    # add timestamp
-    'filename' : 'wlc03-{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M')),
-    'username' : 'rmartini',
-    # getting it from keychain
-    'password' : keyring.get_password('cl17ftp','rmartini'),
-    # 'serverip' : '192.168.4.100',
-    'serverip' : '10.100.253.13',
-    'path' : '/usr/home/rmartini/'
-}
+#!/usr/bin/env python
+from WlcInventory import WlcInventory
 
 if __name__ == '__main__':
-    wlc_session = WlcSshShell(**wlc3)
-    wlc_session.save_config(**ftp_settings)
+    wlcs = WlcInventory()
+    wlcs.connect_to_many()
+    wlcs.save_all()
+    print('all saved')
+    wlcs.send_command_to_many(save_config_ftp=True)
+    print('all uplodaded')
+    wlcs.close_all()
+
 

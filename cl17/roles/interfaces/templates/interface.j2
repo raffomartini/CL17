@@ -1,0 +1,13 @@
+#jinja2:variable_start_string:'[%' , variable_end_string:'%]'
+{% if item.name == "management" %}
+config interface vlan management [%item.vlan%] 
+config interface address management [%item.subnet%]{{[%item.network_ip%] + item.ip}} [%item.gw%]
+config interface dhcp management primary 10.100.253.6 secondary 10.100.253.106
+config redundancy management-gateway-failover disable 
+{% else %}
+config interface create [%item.name%] [%item.vlan%]
+config interface address dynamic-interface [%item.name%] [%item.subnet%]{{[%item.network_ip%] + item.ip}} [%item.gw%]
+config interface dhcp dynamic-interface [%item.name%] primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan [%item.name%] [%item.vlan%]
+config interface nasid none [%item.name%]
+{% endif %}

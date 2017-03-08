@@ -1,0 +1,5 @@
+config interface create client-132 132
+config interface address dynamic-interface client-132 10.132.0.{{0 + item.ip}} 10.132.255.254
+config interface dhcp dynamic-interface client-132 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan client-132 132
+config interface nasid none client-132

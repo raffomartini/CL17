@@ -1,0 +1,6 @@
+config interface create demo 136
+config interface address dynamic-interface client-134 10.136.0.{{item.ip}} 255.255.0.0 10.136.255.254
+config interface dhcp dynamic-interface client-134 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan demo 136
+config interface nasid none demo
+config wlan interface 23 demo

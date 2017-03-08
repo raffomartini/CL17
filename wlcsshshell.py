@@ -141,14 +141,14 @@ class WlcSshShell(object):
         while self.shell_session.recv_ready():
             buffer = self.shell_session.recv(10000)
             if self.DEBUG:
-                print('RECEIVED: {}'.format(buffer.decode()))
+                print('RECEIVED: {}'.format(buffer.decode("utf-8", "ignore")))
             elif verbose:
-                print(buffer.decode())
+                print(buffer.decode("utf-8", "ignore"))
             # time.sleep(0.1)
             output += buffer
             if self.logging:
-                self.f.write(buffer.decode())
-        return output.decode()
+                self.f.write(buffer.decode("utf-8", "ignore"))
+        return output.decode("utf-8", "ignore")
 
     def write(self, command):
         '''
@@ -268,7 +268,7 @@ class WlcSshShell(object):
         '''
         self.send_command('config paging disable')
 
-    def load_image(self, username, password, filename, serverip, path, transfer_proto='ftp'):
+    def load_image(self, username, password, filename, serverip, path, transfer_proto='ftp', datatype='code'):
         '''
         Download an image on the controller
         :param transfer_proto:
@@ -285,21 +285,22 @@ transfer download username {username}
 transfer download password {password}
 transfer download serverip {serverip}
 transfer download path {path}
-transfer download datatype code
+transfer download datatype {datatype}
 transfer download start\
 '''.format(filename=filename,
            transfer_proto=transfer_proto,
            username=username,
            password=password,
            serverip=serverip,
-           path=path).splitlines()
+           path=path,
+           datatype=datatype).splitlines()
         if TROUBLESHOOT:
             commands = ['transfer download start']
         output = self.send_commands(commands)
 
-    def export_config(self, username, password, filename, serverip, path, transfer_proto='ftp'):
+    def export_config(self, username, password, filename, serverip, path, transfer_proto='ftp', datatype='config'):
         '''
-        Download an image on the controller
+        Save config to the ftp server
         :param transfer_proto:
         :param username:
         :param password:
@@ -314,14 +315,15 @@ transfer upload username {username}
 transfer upload password {password}
 transfer upload serverip {serverip}
 transfer upload path {path}
-transfer upload datatype config
+transfer upload datatype {datatype}
 transfer upload start\
 '''.format(filename=filename,
            transfer_proto=transfer_proto,
            username=username,
            password=password,
            serverip=serverip,
-           path=path).splitlines()
+           path=path,
+           datatype=datatype).splitlines()
         output = self.send_commands(commands)
 
     def show_run(self, file=None):

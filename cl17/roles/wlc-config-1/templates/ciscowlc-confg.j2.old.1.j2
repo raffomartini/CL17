@@ -1,0 +1,78 @@
+config interface create demo 136 
+config interface vlan demo 136 
+config interface address dynamic-interface v6 10.136.0.{{item.ip}} 255.255.0.0 10.136.255.254 
+config interface dhcp dynamic-interface v6 primary 10.136.255.254 
+config wlan create 22 management CL17_management
+config wlan create 21 legacy CiscoLive2017_Legacy2.4 
+config wlan session-timeout 22 0 
+config wlan broadcast-ssid enable 22 
+config wlan session-timeout 21 1800 
+config wlan broadcast-ssid enable 21 
+config wlan interface 21 customer_clients 
+config wlan interface 22 noc_clients 
+config wlan dhcp_server 22 0.0.0.0 required 
+config wlan mfp client enable 22 
+config wlan mfp client enable 21 
+config wlan radius_server acct add 22 1 
+config wlan radius_server acct add 22 2 
+config wlan radius_server auth add 22 1 
+config wlan radius_server auth add 22 2 
+config wlan mdns disable 21 
+config wlan security web-auth server-precedence 21 local radius ldap 
+config wlan security wpa akm psk set-key ascii ciscolive2017 21 
+config wlan security wpa akm psk enable 21 
+config wlan security wpa akm 802.1x disable 21 
+config wlan security wpa enable 21 
+config wlan wmm allow 21 
+config wlan qos 21 gold 
+config wlan security web-auth server-precedence 22 local radius ldap 
+config wlan security wpa enable 22 
+config wlan wmm allow 22 
+config wlan qos 22 platinum 
+config wlan exclusionlist 21 60 
+config wlan load-balance allow enable 21 
+config wlan radio 21 802.11g-only 
+config wlan radio 22 802.11a-only  
+config wlan enable 21 
+config wlan enable 22
+config wlan create 23 demo demo 
+config wlan session-timeout 23 0 
+config wlan broadcast-ssid enable 23 
+config wlan interface 23 v6 
+config wlan create 23 CL-NAT64 CL-NAT64 
+config wlan mfp client enable 23 
+config wlan security wpa akm 802.1x disable 23
+config wlan security wpa akm psk set-key ascii cl-nat64 23 
+config wlan security wpa akm psk enable 23 
+config wlan security wpa enable 23 
+config wlan wmm allow 23 
+config wlan enable 23 
+config wlan apgroup add CL17-Backoffice
+config wlan apgroup interface-mapping add CL17-Backoffice 1 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 21 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 4 v6
+config wlan apgroup interface-mapping add CL17-Backoffice 22 noc_clients
+config wlan apgroup add CL17-WOS
+config wlan apgroup interface-mapping add CL17-WOS 1 customer_clients
+config wlan apgroup interface-mapping add CL17-WOS 4 v6
+config wlan apgroup interface-mapping add CL17-WOS 22 noc_clients
+config wlan apgroup add CL17-General
+config wlan apgroup interface-mapping add CL17-General 1 customer_clients
+config wlan apgroup interface-mapping add CL17-General 21 customer_clients
+config wlan apgroup interface-mapping add CL17-General 4 v6
+config wlan apgroup interface-mapping add CL17-General 22 noc_clients
+config wlan apgroup add CL17-Keynote
+config wlan apgroup interface-mapping add CL17-Keynote 1 customer_clients
+config wlan apgroup interface-mapping add CL17-Keynote 4 v6
+config wlan apgroup interface-mapping add CL17-Keynote 22 noc_clients
+config wlan apgroup add CL17-CAE
+config wlan apgroup interface-mapping add CL17-CAE 1 customer_clients
+config wlan apgroup interface-mapping add CL17-CAE 21 customer_clients
+config wlan apgroup interface-mapping add CL17-CAE 4 v6
+config wlan apgroup interface-mapping add CL17-CAE 22 noc_clients
+config wlan apgroup add CL17-DevNet
+config wlan apgroup interface-mapping add CL17-DevNet 1 customer_clients
+config wlan apgroup interface-mapping add CL17-DevNet 4 v6
+config wlan apgroup interface-mapping add CL17-DevNet 22 noc_clients
+config wlan apgroup add CL17-Keynote-demo
+config wlan apgroup interface-mapping add CL17-Keynote-demo 23 demo

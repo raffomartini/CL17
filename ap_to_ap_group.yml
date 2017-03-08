@@ -1,0 +1,2340 @@
+AP0035.1aaf.7aa0:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP0035.1aaf.7aa0
+AP1001-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1001-3702i
+AP1008-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1008-3702i
+AP1018-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1018-3702i
+AP1023-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1023-3702i
+AP1025-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1025-3702i
+AP1035-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1035-3702i
+AP1036-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1036-3702i
+AP1038-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1038-3702i
+AP1060-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1060-3702i
+AP1066-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1066-3702i
+AP1069-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1069-3702i
+AP1080-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1080-3702i
+AP1100-3702i_se:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1100-3702i_se
+AP1112-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1112-3702i
+AP1117-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1117-3702i
+AP1118-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1118-3702i
+AP1119-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1119-3702i
+AP1123-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1123-3702i
+AP1125-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1125-3702i
+AP1135-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1135-3702i
+AP1136-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1136-3702i
+AP1140-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1140-3702i
+AP1153-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1153-3702i
+AP1154-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1154-3702i
+AP1155-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1155-3702i
+AP1156-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1156-3702i
+AP1157-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1157-3702i
+AP1159-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1159-3702i
+AP1178-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1178-3702i
+AP1181-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: AP1181-3702i
+AP1183-3702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1183-3702i
+AP1186-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1186-3702i
+AP1192-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1192-3702i
+AP1193-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1193-3702i
+AP1199-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: AP1199-3702i
+AP1240-3702e:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1240-3702e
+AP1243-3702e:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1243-3702e
+AP1245-3702e:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP1245-3702e
+AP1249-3702e:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1249-3702e
+AP1253-3702e:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1253-3702e
+AP1270-3702e:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1270-3702e
+AP1271-3702e:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1271-3702e
+AP1311-2702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1311-2702i
+AP1314-2702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1314-2702i
+AP1325-2702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1325-2702i
+AP1330-2702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1330-2702i
+AP1334-2702i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1334-2702i
+AP1575-2702e:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1575-2702e
+AP1576-2702e:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1576-2702e
+AP1601-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1601-3702p
+AP1602-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1602-3702p
+AP1603-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1603-3702p
+AP1604-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1604-3702p
+AP1605-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1605-3702p
+AP1606-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1606-3702p
+AP1610-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1610-3702p
+AP1620-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1620-3702p
+AP1621-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1621-3702p
+AP1622-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1622-3702p
+AP1623-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP1623-3702p
+AP1624-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP1624-3702p
+AP1625-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1625-3702p
+AP1626-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1626-3702p
+AP1627-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1627-3702p
+AP1628-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1628-3702p
+AP1629-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1629-3702p
+AP1630-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1630-3702p
+AP1631-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1631-3702p
+AP1632-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1632-3702p
+AP1633-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1633-3702p
+AP1634-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1634-3702p
+AP1635-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1635-3702p
+AP1637-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1637-3702p
+AP1638-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1638-3702p
+AP1639-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1639-3702p
+AP1640-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1640-3702p
+AP1652-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1652-3702p
+AP1653-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1653-3702p
+AP1654-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1654-3702p
+AP1656-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1656-3702p
+AP1657-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1657-3702p
+AP1658-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1658-3702p
+AP1660-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1660-3702p
+AP1661-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP1661-3702p
+AP1662-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP1662-3702p
+AP1664-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1664-3702p
+AP1665-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1665-3702p
+AP1666-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1666-3702p
+AP1667-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1667-3702p
+AP1668-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1668-3702p
+AP1669-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1669-3702p
+AP1670-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1670-3702p
+AP1671-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1671-3702p
+AP1672-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1672-3702p
+AP1675-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1675-3702p
+AP1677-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1677-3702p
+AP1678-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1678-3702p
+AP1679-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP1679-3702p
+AP1680-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP1680-3702p
+AP1681-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP1681-3702p
+AP1683-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1683-3702p
+AP1686-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1686-3702p
+AP1687-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1687-3702p
+AP1688-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1688-3702p
+AP1690-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP1690-3702p
+AP1693-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-1
+  ap_name: AP1693-3702p
+AP1696-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1696-3702p
+AP1697-3702p:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1697-3702p
+AP1698-3702p:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP1698-3702p
+AP1699-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1699-3702p
+AP1701-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1701-3702p
+AP1702-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1702-3702p
+AP1703-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1703-3702p
+AP1704-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1704-3702p
+AP1705-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1705-3702p
+AP1706-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1706-3702p
+AP1707-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1707-3702p
+AP1708-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1708-3702p
+AP1710-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1710-3702p
+AP1711-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1711-3702p
+AP1712-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1712-3702p
+AP1713-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1713-3702p
+AP1714-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1714-3702p
+AP1715-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1715-3702p
+AP1716-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1716-3702p
+AP1717-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1717-3702p
+AP1718-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1718-3702p
+AP1719-3702p:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1719-3702p
+AP1720-3702p:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP1720-3702p
+AP1800-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1800-3802e
+AP1801-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1801-3802e
+AP1802-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1802-3802e
+AP1803-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1803-3802e
+AP1804-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1804-3802e
+AP1805-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1805-3802e
+AP1806-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1806-3802e
+AP1807-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1807-3802e
+AP1808-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1808-3802e
+AP1809-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1809-3802e
+AP1810-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1810-3802e
+AP1811-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1811-3802e
+AP1812-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1812-3802e
+AP1813-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1813-3802e
+AP1814-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1814-3802e
+AP1815-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1815-3802e
+AP1816-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1816-3802e
+AP1817-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1817-3802e
+AP1818-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1818-3802e
+AP1819-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1819-3802e
+AP1820-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1820-3802e
+AP1821-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1821-3802e
+AP1822-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1822-3802e
+AP1823-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1823-3802e
+AP1824-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1824-3802e
+AP1825-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1825-3802e
+AP1826-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1826-3802e
+AP1827-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1827-3802e
+AP1828-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1828-3802e
+AP1829-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1829-3802e
+AP1830-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1830-3802e
+AP1831-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1831-3802e
+AP1832-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1832-3802e
+AP1833-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1833-3802e
+AP1834-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1834-3802e
+AP1835-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1835-3802e
+AP1836-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1836-3802e
+AP1837-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1837-3802e
+AP1838-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1838-3802e
+AP1839-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1839-3802e
+AP1840-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1840-3802e
+AP1841-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1841-3802e
+AP1842-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1842-3802e
+AP1843-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1843-3802e
+AP1844-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1844-3802e
+AP1845-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1845-3802e
+AP1846-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1846-3802e
+AP1847-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1847-3802e
+AP1848-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1848-3802e
+AP1849-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1849-3802e
+AP1850-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1850-3802e
+AP1851-3802e:
+  ap_group: CL17-Keynote
+  ap_location: CityCube-2
+  ap_name: AP1851-3802e
+AP1884-3802e:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1884-3802e
+AP1885-3802e:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1885-3802e
+AP1886-3802e:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1886-3802e
+AP1887-3802e:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP1887-3802e
+AP2000-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2000-3802i
+AP2008-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2008-3802i
+AP2012-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-1M
+  ap_name: AP2012-3802i
+AP2015-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2015-3802i
+AP2040-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2040-3802i
+AP2042-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2042-3802i
+AP2043-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2043-3802i
+AP2044-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2044-3802i
+AP2059-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2059-3802i
+AP2060-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2060-3802i
+AP2061-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2061-3802i
+AP2062-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2062-3802i
+AP2063-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2063-3802i
+AP2065-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2065-3802i
+AP2066-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2066-3802i
+AP2067-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2067-3802i
+AP2070-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2070-3802i
+AP2071-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2071-3802i
+AP2075-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2075-3802i
+AP2076-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2076-3802i
+AP2077-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2077-3802i
+AP2078-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2078-3802i
+AP2079-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2079-3802i
+AP2086-3802i:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: AP2086-3802i
+AP2088-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2088-3802i
+AP2089-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2089-3802i
+AP2090-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2090-3802i
+AP2091-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2091-3802i
+AP2092-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2092-3802i
+AP2093-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2093-3802i
+AP2094-3802i:
+  ap_group: CL17-General
+  ap_location: CityCube-3
+  ap_name: AP2094-3802i
+AP2407-3702i:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: AP2407-3702i
+EMS_AP_164:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_164
+EMS_AP_165:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_165
+EMS_AP_166:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_166
+EMS_AP_233:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_233
+EMS_AP_236:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_236
+EMS_AP_237:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_237
+EMS_AP_239:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_239
+EMS_AP_240:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_240
+EMS_AP_59:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: EMS_AP_59
+EMS_UG_E01_AP_816:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: EMS_UG_E01_AP_816
+H_001.1-003.1_UG_AP_606:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001.1-003.1_UG_AP_606
+H_001.1/002.1_MF_AP_819:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001.1/002.1_MF_AP_819
+H_001.1/2.1-003.1/4.1_UG_AP_725:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001.1/2.1-003.1/4.1_UG_AP_725
+H_001.1_AP_119:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_119
+H_001.1_AP_143:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_143
+H_001.1_AP_144:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_144
+H_001.1_AP_145:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_145
+H_001.1_AP_167:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_167
+H_001.1_AP_168:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_168
+H_001.1_AP_218:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_218
+H_001.1_AP_219:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_219
+H_001.1_AP_243:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_243
+H_001.1_AP_244:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_244
+H_001.1_AP_268:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_268
+H_001.1_AP_332:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_332
+H_001.1_AP_334:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_334
+H_001.1_AP_336:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_336
+H_001.1_AP_47:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_47
+H_001.1_AP_48:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_48
+H_001.1_AP_49:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_49
+H_001.1_AP_51:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_51
+H_001.1_AP_52:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_52
+H_001.1_AP_63:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_63
+H_001.1_AP_64:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_64
+H_001.1_AP_66:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_66
+H_001.1_AP_67:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_67
+H_001.1_AP_68:
+  ap_group: CL17-General
+  ap_location: Hall 1-1
+  ap_name: H_001.1_AP_68
+H_001.1a/002.1a_MF_AP_793:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001.1a/002.1a_MF_AP_793
+H_001.1b/002.1b_MF_AP_817:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001.1b/002.1b_MF_AP_817
+H_001.1b/002.1b_MF_AP_818:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001.1b/002.1b_MF_AP_818
+H_001.2/2.2-003.2/4.2_UG_AP_603:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001.2/2.2-003.2/4.2_UG_AP_603
+H_001.2_AP_102:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_102
+H_001.2_AP_123:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_123
+H_001.2_AP_124:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_124
+H_001.2_AP_128:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_128
+H_001.2_AP_129:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_129
+H_001.2_AP_130:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_130
+H_001.2_AP_148:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_148
+H_001.2_AP_149:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_149
+H_001.2_AP_150:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_150
+H_001.2_AP_180:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_180
+H_001.2_AP_182:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_182
+H_001.2_AP_183:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_183
+H_001.2_AP_185:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_185
+H_001.2_AP_223:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_223
+H_001.2_AP_302:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_302
+H_001.2_AP_304:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_304
+H_001.2_AP_306:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_306
+H_001.2_AP_307:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_307
+H_001.2_AP_32:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_32
+H_001.2_AP_34:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_34
+H_001.2_AP_84:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_84
+H_001.2_AP_96:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_96
+H_001.2_AP_98:
+  ap_group: CL17-WOS
+  ap_location: Hall 1-2
+  ap_name: H_001.2_AP_98
+H_001.2a/002.2a_MF_AP_599:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_001.2a/002.2a_MF_AP_599
+H_001.2a/2.2a_MF_AP_594:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_001.2a/2.2a_MF_AP_594
+H_001.2b/002.2b_MF_AP_600:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_001.2b/002.2b_MF_AP_600
+H_001.2b/002.2b_MF_AP_601:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_001.2b/002.2b_MF_AP_601
+H_001/002_MF_ZE1_AP_848:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001/002_MF_ZE1_AP_848
+H_001/002_ZE1_LH_Passau_AP595:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001/002_ZE1_LH_Passau_AP595
+H_001/002_ZE1_Passau_AP_724:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_001/002_ZE1_Passau_AP_724
+H_001/2-H_003/4_UG_ZE1_AP_850:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_001/2-H_003/4_UG_ZE1_AP_850
+H_001a/002a_MF_ZE1_AP_849:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001a/002a_MF_ZE1_AP_849
+H_001b/002b_MF_ZE1_AP_846:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001b/002b_MF_ZE1_AP_846
+H_001b/002b_MF_ZE1_AP_847:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_001b/002b_MF_ZE1_AP_847
+H_002.1-004.1_UG_AP_604:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002.1-004.1_UG_AP_604
+H_002.1-007.1a_UG_AP_597:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002.1-007.1a_UG_AP_597
+H_002.1_AP_10:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_10
+H_002.1_AP_103:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_103
+H_002.1_AP_104:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_104
+H_002.1_AP_105:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_105
+H_002.1_AP_106:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_106
+H_002.1_AP_107:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_107
+H_002.1_AP_108:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_108
+H_002.1_AP_110:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_110
+H_002.1_AP_111:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_111
+H_002.1_AP_13:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_13
+H_002.1_AP_141:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_141
+H_002.1_AP_16:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_16
+H_002.1_AP_192:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_192
+H_002.1_AP_193:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_193
+H_002.1_AP_195:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_195
+H_002.1_AP_196:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_196
+H_002.1_AP_28:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_28
+H_002.1_AP_35:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_35
+H_002.1_AP_74:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_74
+H_002.1_AP_75:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_75
+H_002.1_AP_76:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_76
+H_002.1_AP_79:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_79
+H_002.1_AP_81:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_81
+H_002.1_AP_82:
+  ap_group: CL17-General
+  ap_location: Hall 2-1
+  ap_name: H_002.1_AP_82
+H_002.2-004.2_UG_AP_471:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002.2-004.2_UG_AP_471
+H_002.2-007.2a_UG_AP_473:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002.2-007.2a_UG_AP_473
+H_002.2_AP_118:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_118
+H_002.2_AP_131:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_131
+H_002.2_AP_132:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_132
+H_002.2_AP_133:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_133
+H_002.2_AP_134:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_134
+H_002.2_AP_231:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_231
+H_002.2_AP_241:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_241
+H_002.2_AP_259:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_259
+H_002.2_AP_260:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_260
+H_002.2_AP_261:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_261
+H_002.2_AP_266:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_266
+H_002.2_AP_272:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_272
+H_002.2_AP_273:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_273
+H_002.2_AP_274:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_274
+H_002.2_AP_275:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_275
+H_002.2_AP_276:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_276
+H_002.2_AP_320:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_320
+H_002.2_AP_322:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_322
+H_002.2_AP_323:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_323
+H_002.2_AP_324:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_324
+H_002.2_AP_45:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_45
+H_002.2_AP_65:
+  ap_group: CL17-DevNet
+  ap_location: Hall 2-2
+  ap_name: H_002.2_AP_65
+H_002_ZE1_Lindau_AP_874:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002_ZE1_Lindau_AP_874
+H_002_ZE1_Lindau_AP_875:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_002_ZE1_Lindau_AP_875
+H_002_ZE1_Lindau_AP_876:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_002_ZE1_Lindau_AP_876
+H_002_ZE1_Lindau_AP_877:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_002_ZE1_Lindau_AP_877
+H_003.1-005.1_UG_AP_605:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_003.1-005.1_UG_AP_605
+H_003.1/004.1_MF_AP_822:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_003.1/004.1_MF_AP_822
+H_003.1_AP_100:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_100
+H_003.1_AP_101:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_101
+H_003.1_AP_136:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_136
+H_003.1_AP_157:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_157
+H_003.1_AP_158:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_158
+H_003.1_AP_159:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_159
+H_003.1_AP_161:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_161
+H_003.1_AP_162:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_162
+H_003.1_AP_175:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_175
+H_003.1_AP_181:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_181
+H_003.1_AP_19:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_19
+H_003.1_AP_20:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_20
+H_003.1_AP_21:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_21
+H_003.1_AP_22:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_22
+H_003.1_AP_229:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_229
+H_003.1_AP_230:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_230
+H_003.1_AP_232:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_232
+H_003.1_AP_25:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_25
+H_003.1_AP_71:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_71
+H_003.1_AP_72:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_72
+H_003.1_AP_73:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_73
+H_003.1_AP_77:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_77
+H_003.1_AP_99:
+  ap_group: CL17-General
+  ap_location: Hall 3-1
+  ap_name: H_003.1_AP_99
+H_003.1a/004.1a_MF_AP_823:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_003.1a/004.1a_MF_AP_823
+H_003.1a/004.1a_MF_AP_824:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_003.1a/004.1a_MF_AP_824
+H_003.1b/004.1b_MF_AP_821:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_003.1b/004.1b_MF_AP_821
+H_003.2-005.2_UG_AP_463:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_003.2-005.2_UG_AP_463
+H_003.2/004.2_MF_AP_889:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_003.2/004.2_MF_AP_889
+H_003.2/4.2-005.2/6.2_UG_AP_464:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_003.2/4.2-005.2/6.2_UG_AP_464
+H_003.2_AP_109:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_109
+H_003.2_AP_11:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_11
+H_003.2_AP_112:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_112
+H_003.2_AP_113:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_113
+H_003.2_AP_12:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_12
+H_003.2_AP_135:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_135
+H_003.2_AP_137:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_137
+H_003.2_AP_138:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_138
+H_003.2_AP_214:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_214
+H_003.2_AP_216:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_216
+H_003.2_AP_220:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_220
+H_003.2_AP_221:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_221
+H_003.2_AP_23:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_23
+H_003.2_AP_24:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_24
+H_003.2_AP_247:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_247
+H_003.2_AP_248:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_248
+H_003.2_AP_250:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_250
+H_003.2_AP_252:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_252
+H_003.2_AP_26:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_26
+H_003.2_AP_36:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_36
+H_003.2_AP_69:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_69
+H_003.2_AP_70:
+  ap_group: CL17-WOS
+  ap_location: Hall 3-2
+  ap_name: H_003.2_AP_70
+H_003.2a/004.2a_MF_AP_469:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_003.2a/004.2a_MF_AP_469
+H_003.2a/004.2a_MF_AP_470:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_003.2a/004.2a_MF_AP_470
+H_003.2b/004.2b_MF_AP_467:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_003.2b/004.2b_MF_AP_467
+H_003.2b/004.2b_MF_AP_468:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_003.2b/004.2b_MF_AP_468
+H_003/004_ZE1_AP_853:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_003/004_ZE1_AP_853
+H_003/4-005/6_UG_ZE1_AP_856:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_003/4-005/6_UG_ZE1_AP_856
+H_003a/004a_MF_ZE1_AP_854:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_003a/004a_MF_ZE1_AP_854
+H_003a/004a_MF_ZE1_AP_855:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_003a/004a_MF_ZE1_AP_855
+H_003b/004b_MF_ZE1_AP_851:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_003b/004b_MF_ZE1_AP_851
+H_003b/004b_MF_ZE1_AP_852:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_003b/004b_MF_ZE1_AP_852
+H_004.1-006.1_UG_AP_607:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_004.1-006.1_UG_AP_607
+H_004.1_AP_116:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_116
+H_004.1_AP_117:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_117
+H_004.1_AP_120:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_120
+H_004.1_AP_121:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_121
+H_004.1_AP_122:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_122
+H_004.1_AP_169:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_169
+H_004.1_AP_171:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_171
+H_004.1_AP_172:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_172
+H_004.1_AP_184:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_184
+H_004.1_AP_194:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_194
+H_004.1_AP_245:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_245
+H_004.1_AP_246:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_246
+H_004.1_AP_328:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_328
+H_004.1_AP_329:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_329
+H_004.1_AP_330:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_330
+H_004.1_AP_337:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_337
+H_004.1_AP_37:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_37
+H_004.1_AP_38:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_38
+H_004.1_AP_39:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_39
+H_004.1_AP_40:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_40
+H_004.1_AP_41:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_41
+H_004.1_AP_42:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_42
+H_004.1_AP_57:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_57
+H_004.1_AP_60:
+  ap_group: CL17-General
+  ap_location: Hall 4-1
+  ap_name: H_004.1_AP_60
+H_004.2-006.2_UG_AP_462:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_004.2-006.2_UG_AP_462
+H_004.2_AP_125:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_125
+H_004.2_AP_126:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_126
+H_004.2_AP_127:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_127
+H_004.2_AP_190:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_190
+H_004.2_AP_191:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_191
+H_004.2_AP_204:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_204
+H_004.2_AP_206:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_206
+H_004.2_AP_210:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_210
+H_004.2_AP_212:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_212
+H_004.2_AP_292:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_292
+H_004.2_AP_293:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_293
+H_004.2_AP_294:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_294
+H_004.2_AP_295:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_295
+H_004.2_AP_296:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_296
+H_004.2_AP_297:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_297
+H_004.2_AP_298:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_298
+H_004.2_AP_299:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_299
+H_004.2_AP_300:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_300
+H_004.2_AP_301:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_301
+H_004.2_AP_33:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_33
+H_004.2_AP_4:
+  ap_group: CL17-WOS
+  ap_location: Hall 4-2
+  ap_name: H_004.2_AP_4
+H_004_ZE1_Weimar_AP_870:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_004_ZE1_Weimar_AP_870
+H_004_ZE1_Weimar_AP_871:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_004_ZE1_Weimar_AP_871
+H_004_ZE1_Weimar_AP_872:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_004_ZE1_Weimar_AP_872
+H_004_ZE1_Weimar_AP_873:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_004_ZE1_Weimar_AP_873
+H_005.1a/006.1a_MF_AP_825:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_005.1a/006.1a_MF_AP_825
+H_005.1a/006.1a_MF_AP_826:
+  ap_group: CL17-General
+  ap_location: Spine-1
+  ap_name: H_005.1a/006.1a_MF_AP_826
+H_005.2_AP_536:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_536
+H_005.2_AP_537:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_537
+H_005.2_AP_538:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_538
+H_005.2_AP_539:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_539
+H_005.2_AP_540:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_540
+H_005.2_AP_547:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_547
+H_005.2_AP_550:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_550
+H_005.2_AP_556:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_556
+H_005.2_AP_557:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_557
+H_005.2_AP_558:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_558
+H_005.2_AP_559:
+  ap_group: CL17-General
+  ap_location: Hall 5-2
+  ap_name: H_005.2_AP_559
+H_005.2_AP_unnamed:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_005.2_AP_unnamed
+H_005.2a/006.2a_MF_AP_465:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_005.2a/006.2a_MF_AP_465
+H_005.2a/006.2a_MF_AP_466:
+  ap_group: CL17-General
+  ap_location: Spine-2
+  ap_name: H_005.2a/006.2a_MF_AP_466
+H_005.2b_KF_AP_896:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_005.2b_KF_AP_896
+H_005.2b_KF_AP_897:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_005.2b_KF_AP_897
+H_005.3_AP_505:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_505
+H_005.3_AP_506:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_506
+H_005.3_AP_507:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_507
+H_005.3_AP_508:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_508
+H_005.3_AP_509:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_509
+H_005.3_AP_510:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_510
+H_005.3_AP_511:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_511
+H_005.3_AP_512:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_512
+H_005.3_AP_513:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_513
+H_005.3_AP_514:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_514
+H_005.3_AP_515:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_515
+H_005.3_AP_516:
+  ap_group: CL17-General
+  ap_location: Hall 5-3
+  ap_name: H_005.3_AP_516
+H_005a/006a_MF_ZE1_AP_858:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_005a/006a_MF_ZE1_AP_858
+H_005a/006a_MF_ZE1_AP_859:
+  ap_group: CL17-General
+  ap_location: Spine-1M
+  ap_name: H_005a/006a_MF_ZE1_AP_859
+H_006.1-007.1c_UG_AP_596:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_006.1-007.1c_UG_AP_596
+H_006.2_AP_198:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_198
+H_006.2_AP_199:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_199
+H_006.2_AP_203:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_203
+H_006.2_AP_255:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_255
+H_006.2_AP_27:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_27
+H_006.2_AP_29:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_29
+H_006.2_AP_312:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_312
+H_006.2_AP_313:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_313
+H_006.2_AP_314:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_314
+H_006.2_AP_316:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_316
+H_006.2_AP_61:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_61
+H_006.2_AP_62:
+  ap_group: CL17-General
+  ap_location: Hall 6-2
+  ap_name: H_006.2_AP_62
+H_006_ZE1_Dessau_AP_866:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_006_ZE1_Dessau_AP_866
+H_006_ZE1_Dessau_AP_867:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_006_ZE1_Dessau_AP_867
+H_006_ZE1_Dessau_AP_868:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_006_ZE1_Dessau_AP_868
+H_006_ZE1_Dessau_AP_869:
+  ap_group: CL17-General
+  ap_location: Hallway to H7-1M
+  ap_name: H_006_ZE1_Dessau_AP_869
+H_007.1a_AP_139:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_139
+H_007.1a_AP_140:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_140
+H_007.1a_AP_153:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_153
+H_007.1a_AP_154:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_154
+H_007.1a_AP_155:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_155
+H_007.1a_AP_227:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_227
+H_007.1a_AP_50:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_50
+H_007.1a_AP_78:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_78
+H_007.1a_AP_80:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_AP_80
+H_007.1a_FY_AP_838:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_FY_AP_838
+H_007.1a_FY_AP_839:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1a_FY_AP_839
+H_007.1b-007.1c_UG_AP_842:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1b-007.1c_UG_AP_842
+H_007.1b-007.1c_UG_AP_843:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1b-007.1c_UG_AP_843
+H_007.1c_AP_277:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_277
+H_007.1c_AP_280:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_280
+H_007.1c_AP_286:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_286
+H_007.1c_AP_288:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_288
+H_007.1c_AP_290:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_290
+H_007.1c_AP_291:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_291
+H_007.1c_AP_303:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_303
+H_007.1c_AP_310:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_310
+H_007.1c_AP_311:
+  ap_group: CL17-General
+  ap_location: Hall 7-1
+  ap_name: H_007.1c_AP_311
+H_007.2a-007.2b_UG_AP_905:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007.2a-007.2b_UG_AP_905
+H_007.2a-007.2b_UG_AP_906:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007.2a-007.2b_UG_AP_906
+H_007.2a_AP_151:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_151
+H_007.2a_AP_152:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_152
+H_007.2a_AP_163:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_163
+H_007.2a_AP_170:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_170
+H_007.2a_AP_225:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_225
+H_007.2a_AP_226:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_226
+H_007.2a_AP_228:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_228
+H_007.2a_AP_238:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_238
+H_007.2a_AP_242:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_AP_242
+H_007.2a_FY_AP_903:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_FY_AP_903
+H_007.2a_FY_AP_904:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2a_FY_AP_904
+H_007.2b-007.2c_UG_AP_907:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007.2b-007.2c_UG_AP_907
+H_007.2b-007.2c_UG_AP_908:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007.2b-007.2c_UG_AP_908
+H_007.2b_AP_114:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_114
+H_007.2b_AP_187:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_187
+H_007.2b_AP_217:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_217
+H_007.2b_AP_282:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_282
+H_007.2b_AP_284:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_284
+H_007.2b_AP_285:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_285
+H_007.2b_AP_287:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_287
+H_007.2b_AP_289:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_289
+H_007.2b_AP_8:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2b_AP_8
+H_007.2c_AP_146:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_146
+H_007.2c_AP_147:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_147
+H_007.2c_AP_208:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_208
+H_007.2c_AP_209:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_209
+H_007.2c_AP_211:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_211
+H_007.2c_AP_213:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_213
+H_007.2c_AP_222:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_222
+H_007.2c_AP_224:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_224
+H_007.2c_AP_7:
+  ap_group: CL17-General
+  ap_location: Hall 7-2
+  ap_name: H_007.2c_AP_7
+H_007.3_AP_160:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_160
+H_007.3_AP_173:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_173
+H_007.3_AP_176:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_176
+H_007.3_AP_179:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_179
+H_007.3_AP_234:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_234
+H_007.3_AP_235:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_235
+H_007.3_AP_85:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_85
+H_007.3_AP_87:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3_AP_87
+H_007.3a_FY_AP_923:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3a_FY_AP_923
+H_007.3a_FY_AP_924:
+  ap_group: CL17-General
+  ap_location: Hall 7-3
+  ap_name: H_007.3a_FY_AP_924
+H_007a_ZE1_AP_878:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007a_ZE1_AP_878
+H_007a_ZE2_AP_916:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007a_ZE2_AP_916
+H_007b_ZE1_AP_879:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007b_ZE1_AP_879
+H_007c_ZE1_AP_880:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007c_ZE1_AP_880
+H_007c_ZE2_AP_917:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: H_007c_ZE2_AP_917
+SCH7_Garderobe_DG_E02_AP_927:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: SCH7_Garderobe_DG_E02_AP_927
+SCH7_Garderobe_DG_E02_AP_928:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: SCH7_Garderobe_DG_E02_AP_928
+SCH7_Kassenhalle_E02_AP_730:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: SCH7_Kassenhalle_E02_AP_730
+SCH7_Kassenhalle_E02_AP_731:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: SCH7_Kassenhalle_E02_AP_731
+SCH7_Windfang_E02_AP_929:
+  ap_group: CL17-General
+  ap_location: Unassigned
+  ap_name: SCH7_Windfang_E02_AP_929

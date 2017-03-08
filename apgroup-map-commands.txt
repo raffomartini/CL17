@@ -1,0 +1,29 @@
+config wlan apgroup add CL17-Backoffice
+config wlan apgroup interface-mapping add CL17-Backoffice 1 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 21 customer_clients
+config wlan apgroup interface-mapping add CL17-Backoffice 4 v6
+config wlan apgroup interface-mapping add CL17-Backoffice 22 noc_clients
+config wlan apgroup add CL17-WOS
+config wlan apgroup interface-mapping add CL17-WOS 1 customer_clients
+config wlan apgroup interface-mapping add CL17-WOS 4 v6
+config wlan apgroup interface-mapping add CL17-WOS 22 noc_clients
+config wlan apgroup add CL17-General
+config wlan apgroup interface-mapping add CL17-General 1 customer_clients
+config wlan apgroup interface-mapping add CL17-General 21 customer_clients
+config wlan apgroup interface-mapping add CL17-General 4 v6
+config wlan apgroup interface-mapping add CL17-General 22 noc_clients
+config wlan apgroup add CL17-Keynote
+config wlan apgroup interface-mapping add CL17-Keynote 1 customer_clients
+config wlan apgroup interface-mapping add CL17-Keynote 4 v6
+config wlan apgroup interface-mapping add CL17-Keynote 22 noc_clients
+config wlan apgroup add CL17-CAE
+config wlan apgroup interface-mapping add CL17-CAE 1 customer_clients
+config wlan apgroup interface-mapping add CL17-CAE 21 customer_clients
+config wlan apgroup interface-mapping add CL17-CAE 4 v6
+config wlan apgroup interface-mapping add CL17-CAE 22 noc_clients
+config wlan apgroup add CL17-DevNet
+config wlan apgroup interface-mapping add CL17-DevNet 1 customer_clients
+config wlan apgroup interface-mapping add CL17-DevNet 4 v6
+config wlan apgroup interface-mapping add CL17-DevNet 22 noc_clients
+config wlan apgroup add CL17-Keynote-demo
+config wlan apgroup interface-mapping add CL17-Keynote-demo 23 demo

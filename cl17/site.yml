@@ -1,11 +1,21 @@
 ---
 #Template for Playbook "cl17"
-- hosts: local
+- hosts: localhost
   name: cl17
   vars:
     config_path: "{{ playbook_dir }}/CFG"
+    config_snippets: "{{ playbook_dir }}/snippets"
+
   roles:
-  - wlc-config-1
+  - ap-groups
+  - rf-profile  
+  - interfaces
+  - wlc-config
+  # rf-profile creates all the rf-profile defined in the rf-profile variables  
+  
+  # ap-groups creates all the ap-group, 
+  # the interface and rf-profile mapping is defined in the ap-group variables
+  # - wlc-config-1
 #  - wlc-config-redundancy
 
 

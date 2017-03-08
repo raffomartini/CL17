@@ -1,0 +1,5 @@
+config interface create noc-clients-100 100
+config interface address dynamic-interface noc-clients-100 10.100.252.{{0 + item.ip}} 10.100.252.254
+config interface dhcp dynamic-interface noc-clients-100 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan noc-clients-100 100
+config interface nasid none noc-clients-100

@@ -1,0 +1,116 @@
+config rf-profile create 802.11a Demo_a
+config rf-profile trap-threshold clients 50 Demo_a 
+config rf-profile trap-threshold interference 30 Demo_a 
+config rf-profile channel add 36 Demo_a 
+config rf-profile channel add 40 Demo_a 
+config rf-profile channel add 44 Demo_a 
+config rf-profile channel add 48 Demo_a 
+config rf-profile channel add 52 Demo_a 
+config rf-profile channel add 56 Demo_a 
+config rf-profile channel add 60 Demo_a 
+config rf-profile channel add 64 Demo_a 
+config rf-profile channel add 100 Demo_a 
+config rf-profile channel add 104 Demo_a 
+config rf-profile channel add 108 Demo_a 
+config rf-profile channel add 112 Demo_a 
+config rf-profile channel add 116 Demo_a 
+config rf-profile channel add 120 Demo_a 
+config rf-profile channel add 124 Demo_a 
+config rf-profile channel add 128 Demo_a 
+config rf-profile channel add 132 Demo_a 
+config rf-profile channel add 136 Demo_a 
+config rf-profile channel add 140 Demo_a 
+config rf-profile channel chan-width 40 Demo_a 
+config rf-profile coverage exception 30 Demo_a 
+config rf-profile create 802.11b Demo_b
+config rf-profile trap-threshold interference 80 Demo_b
+config rf-profile channel add 1 Demo_b
+config rf-profile channel add 6 Demo_b
+config rf-profile channel add 11 Demo_b
+config rf-profile channel chan-width 20 Demo_b
+config rf-profile coverage exception 30 Demo_b
+config rf-profile data-rates 802.11b disabled 1 Demo_b
+config rf-profile data-rates 802.11b disabled 2 Demo_b
+config rf-profile data-rates 802.11b disabled 5.5 Demo_b
+config rf-profile data-rates 802.11b disabled 11 Demo_b
+config rf-profile data-rates 802.11b disabled 6 Demo_b
+config rf-profile data-rates 802.11b disabled 9 Demo_b
+config rf-profile data-rates 802.11b mandatory 12 Demo_b
+config rf-profile data-rates 802.11b supported 18 Demo_b
+config rf-profile data-rates 802.11b supported 24 Demo_b
+config rf-profile data-rates 802.11b supported 36 Demo_b
+config rf-profile data-rates 802.11b supported 48 Demo_b
+config rf-profile data-rates 802.11b supported 54 Demo_b
+config rf-profile max-client-trap-threshold 12 Demo_b
+config rf-profile tx-power-min 7 Demo_b
+config rf-profile rx-sop threshold -82 Demo_b
+config rf-profile create 802.11a Keynote_a
+config rf-profile trap-threshold clients 50 Keynote_a 
+config rf-profile trap-threshold interference 30 Keynote_a 
+config rf-profile channel add 36 Keynote_a 
+config rf-profile channel add 40 Keynote_a 
+config rf-profile channel add 44 Keynote_a 
+config rf-profile channel add 48 Keynote_a 
+config rf-profile channel add 52 Keynote_a 
+config rf-profile channel add 56 Keynote_a 
+config rf-profile channel add 60 Keynote_a 
+config rf-profile channel add 64 Keynote_a 
+config rf-profile channel add 100 Keynote_a 
+config rf-profile channel add 104 Keynote_a 
+config rf-profile channel add 108 Keynote_a 
+config rf-profile channel add 112 Keynote_a 
+config rf-profile channel add 116 Keynote_a 
+config rf-profile channel add 120 Keynote_a 
+config rf-profile channel add 124 Keynote_a 
+config rf-profile channel add 128 Keynote_a 
+config rf-profile channel add 132 Keynote_a 
+config rf-profile channel add 136 Keynote_a 
+config rf-profile channel add 140 Keynote_a 
+config rf-profile channel chan-width 40 Keynote_a 
+config rf-profile coverage exception 30 Keynote_a 
+config rf-profile create 802.11a Standard_a
+config rf-profile trap-threshold clients 50 Standard_a 
+config rf-profile trap-threshold interference 30 Standard_a 
+config rf-profile channel add 36 Standard_a 
+config rf-profile channel add 40 Standard_a 
+config rf-profile channel add 44 Standard_a 
+config rf-profile channel add 48 Standard_a 
+config rf-profile channel add 52 Standard_a 
+config rf-profile channel add 56 Standard_a 
+config rf-profile channel add 60 Standard_a 
+config rf-profile channel add 64 Standard_a 
+config rf-profile channel add 100 Standard_a 
+config rf-profile channel add 104 Standard_a 
+config rf-profile channel add 108 Standard_a 
+config rf-profile channel add 112 Standard_a 
+config rf-profile channel add 116 Standard_a 
+config rf-profile channel add 120 Standard_a 
+config rf-profile channel add 124 Standard_a 
+config rf-profile channel add 128 Standard_a 
+config rf-profile channel add 132 Standard_a 
+config rf-profile channel add 136 Standard_a 
+config rf-profile channel add 140 Standard_a 
+config rf-profile channel chan-width 40 Standard_a 
+config rf-profile coverage exception 30 Standard_a 
+config rf-profile create 802.11b Standard_b
+config rf-profile trap-threshold interference 80 Standard_b
+config rf-profile channel add 1 Standard_b
+config rf-profile channel add 6 Standard_b
+config rf-profile channel add 11 Standard_b
+config rf-profile channel chan-width 20 Standard_b
+config rf-profile coverage exception 30 Standard_b
+config rf-profile data-rates 802.11b disabled 1 Standard_b
+config rf-profile data-rates 802.11b disabled 2 Standard_b
+config rf-profile data-rates 802.11b disabled 5.5 Standard_b
+config rf-profile data-rates 802.11b disabled 11 Standard_b
+config rf-profile data-rates 802.11b disabled 6 Standard_b
+config rf-profile data-rates 802.11b disabled 9 Standard_b
+config rf-profile data-rates 802.11b mandatory 12 Standard_b
+config rf-profile data-rates 802.11b supported 18 Standard_b
+config rf-profile data-rates 802.11b supported 24 Standard_b
+config rf-profile data-rates 802.11b supported 36 Standard_b
+config rf-profile data-rates 802.11b supported 48 Standard_b
+config rf-profile data-rates 802.11b supported 54 Standard_b
+config rf-profile max-client-trap-threshold 12 Standard_b
+config rf-profile tx-power-min 7 Standard_b
+config rf-profile rx-sop threshold -82 Standard_b

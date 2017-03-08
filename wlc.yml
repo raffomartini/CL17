@@ -24,6 +24,10 @@ wlcs:
     name: WLC9
     port: 19022
 
+  WSA:
+    ip: 10.130.0.21
+    name: WSA
+
 ftp:
   ip: 10.100.253.13
   path: /usr/home/rmartini/

@@ -1,0 +1,32 @@
+config rf-profile create 802.11a Demo_a
+config rf-profile trap-threshold clients 50 Demo_a
+config rf-profile trap-threshold interference 30 Demo_a
+config rf-profile channel add 36 Demo_a
+config rf-profile channel add 40 Demo_a
+config rf-profile channel add 44 Demo_a
+config rf-profile channel add 48 Demo_a
+config rf-profile channel add 52 Demo_a
+config rf-profile channel add 56 Demo_a
+config rf-profile channel add 60 Demo_a
+config rf-profile channel add 64 Demo_a
+config rf-profile channel add 100 Demo_a
+config rf-profile channel add 104 Demo_a
+config rf-profile channel add 108 Demo_a
+config rf-profile channel add 112 Demo_a
+config rf-profile channel add 116 Demo_a
+config rf-profile channel add 120 Demo_a
+config rf-profile channel add 124 Demo_a
+config rf-profile channel add 128 Demo_a
+config rf-profile channel add 132 Demo_a
+config rf-profile channel add 136 Demo_a
+config rf-profile channel add 140 Demo_a
+config rf-profile channel chan-width 40 Demo_a
+config rf-profile coverage exception 30 Demo_a
+config rf-profile data-rates 802.11a disabled 6 Demo_a
+config rf-profile data-rates 802.11a disabled 9 Demo_a
+config rf-profile data-rates 802.11a mandatory 12 Demo_a
+config rf-profile data-rates 802.11a supported 18 Demo_a
+config rf-profile data-rates 802.11a supported 24 Demo_a
+config rf-profile data-rates 802.11a supported 36 Demo_a
+config rf-profile data-rates 802.11a supported 48 Demo_a
+config rf-profile data-rates 802.11a supported 54 Demo_a

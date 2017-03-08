@@ -1,0 +1,15 @@
+config interface vlan v6 135 
+config interface create v6 135 
+config interface address dynamic-interface v6 10.135.0.{{item.ip}} 255.255.0.0 10.135.255.254 
+config interface dhcp dynamic-interface v6 primary 10.135.255.254 
+config wlan session-timeout 4 0 
+config wlan broadcast-ssid enable 4 
+config wlan interface 4 v6 
+config wlan create 4 CL-NAT64 CL-NAT64 
+config wlan mfp client enable 4 
+config wlan security wpa akm 802.1x disable 4 
+config wlan security wpa akm psk set-key ascii cl-nat64 4 
+config wlan security wpa akm psk enable 4 
+config wlan security wpa enable 4 
+config wlan wmm allow 4 
+config wlan enable 4 

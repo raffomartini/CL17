@@ -1,0 +1,4 @@
+config interface vlan management 130 
+config interface address management 10.130.0.{{0 + item.ip}} 130.130.255.254
+config interface dhcp management primary 10.100.253.6 secondary 10.100.253.106
+config redundancy management-gateway-failover disable 

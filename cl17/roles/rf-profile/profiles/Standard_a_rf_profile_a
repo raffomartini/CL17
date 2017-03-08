@@ -1,0 +1,32 @@
+config rf-profile create 802.11a Standard_a
+config rf-profile trap-threshold clients 50 Standard_a
+config rf-profile trap-threshold interference 30 Standard_a
+config rf-profile channel add 36 Standard_a
+config rf-profile channel add 40 Standard_a
+config rf-profile channel add 44 Standard_a
+config rf-profile channel add 48 Standard_a
+config rf-profile channel add 52 Standard_a
+config rf-profile channel add 56 Standard_a
+config rf-profile channel add 60 Standard_a
+config rf-profile channel add 64 Standard_a
+config rf-profile channel add 100 Standard_a
+config rf-profile channel add 104 Standard_a
+config rf-profile channel add 108 Standard_a
+config rf-profile channel add 112 Standard_a
+config rf-profile channel add 116 Standard_a
+config rf-profile channel add 120 Standard_a
+config rf-profile channel add 124 Standard_a
+config rf-profile channel add 128 Standard_a
+config rf-profile channel add 132 Standard_a
+config rf-profile channel add 136 Standard_a
+config rf-profile channel add 140 Standard_a
+config rf-profile channel chan-width 40 Standard_a
+config rf-profile coverage exception 30 Standard_a
+config rf-profile data-rates 802.11a disabled 6 Standard_a
+config rf-profile data-rates 802.11a disabled 9 Standard_a
+config rf-profile data-rates 802.11a mandatory 12 Standard_a
+config rf-profile data-rates 802.11a supported 18 Standard_a
+config rf-profile data-rates 802.11a supported 24 Standard_a
+config rf-profile data-rates 802.11a supported 36 Standard_a
+config rf-profile data-rates 802.11a supported 48 Standard_a
+config rf-profile data-rates 802.11a supported 54 Standard_a

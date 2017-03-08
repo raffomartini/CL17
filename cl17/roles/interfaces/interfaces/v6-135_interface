@@ -1,0 +1,5 @@
+config interface create v6-135 135
+config interface address dynamic-interface v6-135 10.135.0.{{0 + item.ip}} 10.135.255.254
+config interface dhcp dynamic-interface v6-135 primary 10.100.253.6 secondary 10.100.253.106
+config interface vlan v6-135 135
+config interface nasid none v6-135

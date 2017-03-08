@@ -1,0 +1,19 @@
+---
+#rf-profile/tasks/main.yml
+- name: Generate rf-profiles 5Gig
+  template: 
+    src=rf_profile_a.j2 
+    dest="{{rf_profile_path}}/{{item.profile_name}}_rf_profile_a"
+  # loops over the rf_profiles defined in the vars folder
+  with_items: "{{ rf_profiles_a }}"
+- name: Generate rf-profiles 2.4Gig
+  template: 
+    src=rf_profile_b.j2 
+    dest="{{rf_profile_path}}/{{item.profile_name}}_rf_profile_b"
+  with_items: "{{ rf_profiles_b }}"
+- name: assemble config file
+  assemble: 
+    src={{rf_profile_path}}
+    dest="{{config_snippets}}/rf_profiles"
+    regexp=".*_rf_profile.*"
+  

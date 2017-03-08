@@ -191,7 +191,7 @@ ftp:
             # return the commands as a list, 1 command per item
             return f.readlines()
 
-    def send_instruction(self, wlc_name, *args, wlcsshshell_method=WlcSshShell.send_commands, commands_from_file=False, **kwargs ):
+    def send_instruction(self, wlc_name, *args, wlcsshshell_method=WlcSshShell.send_commands, commands_from_file=False, ftp=False, showrun=False, **kwargs ):
         '''
         Send an instruction to wlc_name, the intruction is a method defined in WlcSshShell
         :param wlc_name: name of the WLC
@@ -200,21 +200,32 @@ ftp:
         :return:
         '''
         # used for (s|t)ftp transfer
-        if commands_from_file is True:
+        if commands_from_file:
             # flag to load the config from a file
             commands = self.read_config(wlc_name)
             # add command_list to head of args
             args = [commands] + list(args)
+        # used for (s/t)ftp transfer
+        if ftp:
+            # define filename
+            self.ftp_settings['filename'] = '{}-{}.txt'.format(wlc_name, time.strftime('%Y-%m-%d_%H-%M'))
+            self.ftp_settings['datatype'] = 'config'
+            kwargs = self.ftp_settings
         wlc = self.wlcs[wlc_name]
+        # used to send showrun to (s/t)ftp
+        if showrun:
+            # define filename
+            self.ftp_settings['filename'] = '{}-showrun-{}.txt'.format(wlc_name, time.strftime('%Y-%m-%d_%H-%M'))
+            self.ftp_settings['datatype'] = 'run-config'
+            kwargs = self.ftp_settings
         try:
             wlc_session = wlc['session']
         except KeyError:
             return
-        self.ftp_settings['filename'] = '{}-{}.txt'.format(wlc_name,time.strftime('%Y-%m-%d_%H-%M'))
         try:
             output = wlcsshshell_method(wlc_session,*args,**kwargs)
-        except TypeError:
-            raise AttributeError('wlcsshshell_method must be a WlcSshShell method')
+        except TypeError as e:
+            raise AttributeError('wlcsshshell_method must be a WlcSshShell method: {}'.format(e))
         if type(output) is tuple:
             # case single command being sent using send_commands
             self.lock_and_print('{}{}{}'.format(20*'-', wlc_name, 20*'-'), output[1])
@@ -281,7 +292,7 @@ ftp:
         self.spawn_threads(self.connect, include_list, logging)
 
     @check_include_exclude
-    def send_command_to_many(self, include_list, *args):
+    def send_command_to_many(self, include_list, *args, save_config_ftp=False, save_showrun_ftp=False):
         '''
         Use WlcSshShell.send_commands to send multiple commands to 1 or more WLC in parallel
         :param include_list: list of wlc names to connect to
@@ -292,7 +303,14 @@ ftp:
             # no commands passed
             load_commands = True
         # this will call the method to send_instructions as threaded
-        self.spawn_threads(self.send_instruction, include_list, *args, commands_from_file=load_commands )
+        if save_config_ftp:
+            self.spawn_threads(self.send_instruction, include_list, commands_from_file=False,
+                               wlcsshshell_method=WlcSshShell.export_config, ftp=True)
+        elif save_showrun_ftp:
+            self.spawn_threads(self.send_instruction, include_list, commands_from_file=False,
+                               wlcsshshell_method=WlcSshShell.export_config, showrun=True)
+        else:
+            self.spawn_threads(self.send_instruction, include_list, *args, commands_from_file=load_commands )
 
     def save_all(self):
         '''
@@ -304,35 +322,28 @@ ftp:
 
 if __name__ == '__main__':
     wlcs = WlcInventory()
-    # wlcs.connect('WLC9')
-    wlcs.connect_to_many()
+    # wlcs.connect('WLC1')
+    wlcs.connect_to_many(['WLC5'])
+    # wlcs.connect_to_many()
+    # wlcs.send_command_to_many(['WLC1'],save_config_ftp=True)
+
     # wlcs.save_all()
     # wlcs.connect_to_many(exclude_list=['WLC9'])
-    # wlcs.close_all()
     # wlcs.connect_to_many(['WLC1'])
     # wlcs.send_instruction('WLC1','show interface summary', wlcsshshell_method=WlcSshShell.send_command)
-    # wlcs.send_instruction('WLC1', ['show interface summary', 'show sysinfo'])
+    output = wlcs.send_instruction('WLC5', ['show interface summary', 'show sysinfo'])
     # wlcs.send_instruction('WLC1', commands)
     # working
-    # wlcs.send_instruction('WLC1',commands_from_file=True)
+    # wlcs.send_instruction(['WLC3'],commands_from_file=True)
+    # wlcs.send_command_to_many(['WLC1'],save_showrun_ftp=True)
+    # wlcs.send_command_to_many(exclude_list=['WLC1'])
+    # wlcs.save_all()
+    wlcs.close_all()
+    print(output)
     # wlcs.send_command_to_many(['WLC1'])
     # wlcs.send_command_to_many(['WLC1'])
-    wlcs.send_command_to_many(None, ['config ap mgmtuser add username ramon password wZUb3W6mwUXrEgbR secret wZUb3W6mwUXrEgbR all'])
-    wlcs.save_all()
+    # wlcs.send_command_to_many(None, ['config ap mgmtuser add username ramon password wZUb3W6mwUXrEgbR secret wZUb3W6mwUXrEgbR all'])
+    # wlcs.save_all()
     # wlcs.connect('WLC1')
     # wlcs.send_instruction('WLC1',WlcSshShell.send_command, 'show interface summary')
     # wlcs.close('WLC1')
-
-#     for name,wlc in wlcs.items():
-#         worker = Thread(target=connect_and_save, args=(name,))
-#         threads.append(worker)
-#         worker.setDaemon(True)
-#         worker.start()
-#
-# for thread in threads:
-#     thread.join()
-# print('All Done')
-#
-#
-
-

@@ -1,0 +1,14 @@
+---
+#interfaces/tasks/main.yml
+- name: create interfaces in {{interface_path}}
+  template: 
+    src=interface.j2 
+    dest="{{interface_path}}/{{item.name}}_interface"
+  # loops over the rf_profiles defined in the vars folder
+  with_items: "{{ interfaces }}"
+- name: assemble config file from {{interfaces_path}} to {{config_snippets}}/interfaces
+  assemble: 
+    src={{interface_path}}
+    dest="{{config_snippets}}/interfaces"
+    regexp=".*interface"
+  

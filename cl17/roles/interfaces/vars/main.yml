@@ -1,0 +1,15 @@
+---
+#wlc-config-1/vars/main.yml
+
+interface_path: "{{role_path}}/interfaces"
+
+interfaces:
+  - {name: client-131, vlan: 131, subnet: 10.131.0., network_ip: 0, gw: 10.131.255.254 }
+  - {name: client-132, vlan: 132, subnet: 10.132.0., network_ip: 0, gw: 10.132.255.254 }
+  - {name: client-133, vlan: 133, subnet: 10.133.0., network_ip: 0, gw: 10.133.255.254 }
+  - {name: client-134, vlan: 134, subnet: 10.134.0., network_ip: 0, gw: 10.134.255.254 }
+  - {name: v6-135, vlan: 135, subnet: 10.135.0., network_ip: 0, gw: 10.135.255.254 }
+  - {name: noc-clients-100, vlan: 100, subnet: 10.100.252., network_ip: 0, gw: 10.100.252.254 }
+  - {name: null-666, vlan: 666, subnet: 172.66.66., network_ip: 0, gw: 172.66.66.254}
+  - {name: management, vlan: 130, subnet: 10.130.0., network_ip: 0, gw: 130.130.255.254}
+interfaces_path: "{{ role_path }}"

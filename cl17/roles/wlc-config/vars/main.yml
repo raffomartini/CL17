@@ -1,0 +1,14 @@
+---
+#wlc-config/vars/main.yml
+controllers:
+  - {hostname:  WLC1, ip:  1}
+  - {hostname:  WLC2, ip:  2}
+  - {hostname:  WLC3, ip:  3}
+  - {hostname:  WLC4, ip:  4}
+  - {hostname:  WLC5, ip:  5}
+  - {hostname:  WLC6, ip:  6}
+  - {hostname:  WLC7, ip:  7}
+  - {hostname:  WLC8, ip:  8}
+  - {hostname:  WLC9, ip:  9}
+  - {hostname: WLC10, ip: 10}
+  

@@ -1,0 +1,32 @@
+config rf-profile create 802.11a Keynote_a
+config rf-profile trap-threshold clients 50 Keynote_a
+config rf-profile trap-threshold interference 30 Keynote_a
+config rf-profile channel add 36 Keynote_a
+config rf-profile channel add 40 Keynote_a
+config rf-profile channel add 44 Keynote_a
+config rf-profile channel add 48 Keynote_a
+config rf-profile channel add 52 Keynote_a
+config rf-profile channel add 56 Keynote_a
+config rf-profile channel add 60 Keynote_a
+config rf-profile channel add 64 Keynote_a
+config rf-profile channel add 100 Keynote_a
+config rf-profile channel add 104 Keynote_a
+config rf-profile channel add 108 Keynote_a
+config rf-profile channel add 112 Keynote_a
+config rf-profile channel add 116 Keynote_a
+config rf-profile channel add 120 Keynote_a
+config rf-profile channel add 124 Keynote_a
+config rf-profile channel add 128 Keynote_a
+config rf-profile channel add 132 Keynote_a
+config rf-profile channel add 136 Keynote_a
+config rf-profile channel add 140 Keynote_a
+config rf-profile channel chan-width 40 Keynote_a
+config rf-profile coverage exception 30 Keynote_a
+config rf-profile data-rates 802.11a disabled 6 Keynote_a
+config rf-profile data-rates 802.11a disabled 9 Keynote_a
+config rf-profile data-rates 802.11a mandatory 12 Keynote_a
+config rf-profile data-rates 802.11a supported 18 Keynote_a
+config rf-profile data-rates 802.11a supported 24 Keynote_a
+config rf-profile data-rates 802.11a supported 36 Keynote_a
+config rf-profile data-rates 802.11a supported 48 Keynote_a
+config rf-profile data-rates 802.11a supported 54 Keynote_a

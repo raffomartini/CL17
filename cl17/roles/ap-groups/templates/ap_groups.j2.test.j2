@@ -1,0 +1,4 @@
+config wlan apgroup add {{item.name}}
+{% for wlan in item.wlans %}
+config wlan apgroup interface-mapping add {{item.name}} {{wlan_mapping[wlan].wlan_id}} {{wlan_mapping[wlan].if_name}}
+{% endfor %}
